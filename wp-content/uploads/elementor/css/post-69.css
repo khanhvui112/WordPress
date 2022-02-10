@@ -1,0 +1,126 @@
+.elementor-69 .elementor-element.elementor-element-3f52ae6 img{width:100%;max-width:100%;}.elementor-69 .elementor-element.elementor-element-3f52ae6 > .elementor-widget-container{margin:-20px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-69 .elementor-element.elementor-element-3f52ae6{z-index:0;}@media(min-width:768px){.elementor-69 .elementor-element.elementor-element-bc96b9e{width:4.999%;}.elementor-69 .elementor-element.elementor-element-e8118fc{width:89.333%;}.elementor-69 .elementor-element.elementor-element-c2530b2{width:5%;}}/* Start custom CSS for html, class: .elementor-element-a2b8431 */#h-top {
+    width: 100%;
+    line-height: 150%;
+    padding: 5px 0;
+    margin: 0;
+    background: #004f9e;
+    color: #fff;
+}
+#head-search {
+    float: right;
+    display: block;
+}
+#search-form {
+    width: 240px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 5px;
+    border: 1px solid #1f7edc;
+    padding: 0;
+    margin: 0 10px;
+    background: #045cb4;
+}
+#search-form form {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 22px;
+    line-height: 22px;
+}
+#search-form input[type="text"] {
+    border: none;
+    width: 202px;
+    height: 22px;
+    margin: -7px;
+    padding: 0 10px;
+    background: transparent;
+    color: #fff;
+}
+#search-form input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 22px;
+    line-height: 22px;
+}
+#search-form input {
+    color: #fff;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+#search-form input[type="image"] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    right: 0px;
+    margin-left: 6px;
+}
+
+#search-form input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 22px;
+    line-height: 22px;
+}
+#search-form input {
+    color: #fff;
+}
+#head-right-sub {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    height: 26px;
+    line-height: 26px;
+}
+#head-right-sub a:link, #head-right-sub a:visited {
+    color: #fff;
+}
+
+a:link, a:visited {
+    color: #339;
+    text-decoration: none;
+}
+
+.navbar-default {
+    background-color: #004f9e;
+    border-color: #004f9e;
+    border-radius: 3px;
+}
+#logo > a > img {
+    width: 100%;
+}
+.elementor-widget-container {
+    padding: 0px 10%;
+}
+::placeholder {
+    padding-top: : 24px;
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-3f52ae6 */#logo-header {
+    padding: -20px 0px 0px  0px;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-b255e9e */.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: unset!important;
+}/* End custom CSS */

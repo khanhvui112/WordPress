@@ -1,1 +1,26 @@
-@media(min-width:768px){.elementor-37 .elementor-element.elementor-element-b1a5f43{width:69.459%;}.elementor-37 .elementor-element.elementor-element-f00d54c{width:30.474%;}}
+@media(min-width:768px){.elementor-37 .elementor-element.elementor-element-8ce36cb{width:5.019%;}.elementor-37 .elementor-element.elementor-element-86b3674{width:89.293%;}.elementor-37 .elementor-element.elementor-element-8a6dff0{width:5.02%;}}/* Start custom CSS for html, class: .elementor-element-880b2b6 */#foot {
+    margin: 20px auto 10px;
+    color: #333;
+    width: 100%;
+}
+#footer {
+    font: 12px Arial,Helvetica;
+    padding: 10px 5px;
+    margin: 5px auto 0;
+    width: 100%;
+    line-height: 18px;
+    color: #333;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+#footer span * {
+    font-family: Arial,Helvetica,Verdana,Tahoma;
+    font-size: 12px;
+}
+#powered {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    float: right;
+    text-align: right;
+}/* End custom CSS */
