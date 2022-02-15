@@ -1,12 +1,9 @@
-@media(min-width:768px){.elementor-37 .elementor-element.elementor-element-8ce36cb{width:5.019%;}.elementor-37 .elementor-element.elementor-element-86b3674{width:89.293%;}.elementor-37 .elementor-element.elementor-element-8a6dff0{width:5.02%;}}/* Start custom CSS for html, class: .elementor-element-880b2b6 */#foot {
-    margin: 20px auto 10px;
+/* Start custom CSS for html, class: .elementor-element-880b2b6 */#foot {
     color: #333;
     width: 100%;
 }
 #footer {
     font: 12px Arial,Helvetica;
-    padding: 10px 5px;
-    margin: 5px auto 0;
     width: 100%;
     line-height: 18px;
     color: #333;
@@ -23,4 +20,9 @@
     right: 5px;
     float: right;
     text-align: right;
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-1ad75f1 */.container {
+     width: unset!important; 
+     max-width: unset!important; 
+     margin: unset!important; 
 }/* End custom CSS */
