@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The main template file.
  *
@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<?php do_action( 'ocean_before_content_wrap' ); ?>
 
-	<div id="content-wrap" class="container clr">
+ 	<div id="content-wrap" class="container clr">
 
 		<?php do_action( 'ocean_before_primary' ); ?>
 
@@ -123,8 +123,8 @@ get_header(); ?>
 
 		<?php do_action( 'ocean_after_primary' ); ?>
 
-	</div><!-- #content-wrap -->
+	</div><!-- #content-wrap --> 
 
 	<?php do_action( 'ocean_after_content_wrap' ); ?>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> 
