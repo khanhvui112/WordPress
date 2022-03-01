@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+            $('#related-posts>h3>span').text('BÀI VIẾT LIÊN QUAN KHÁC ');
+            $('#showPage2').on('click',function(){
+                $('#swPage2').show();
+                $('#swPage1').hide();
+                $(this).addClass('active');
+                $('#showPage1').removeClass('active');
+            })
+    
+            $('#showPage1').on('click',function(){
+                $('#swPage1').show();
+                $('#swPage2').hide();
+                $(this).addClass('active');
+                $('#showPage2').removeClass('active');
+            })
+        </script>
+</head>
+<body>
+    <section id="related-posts" class="clr">
+
+		<h3 class="theme-heading related-posts-title">
+			<span class="text">You Might Also Like</span>
+		</h3>
+
+
+	</section>
+</body>
+</html>

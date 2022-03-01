@@ -1621,8 +1621,8 @@ function upgrade_280() {
 		$start = 0;
 		while ( $rows = $wpdb->get_results( "SELECT option_name, option_value FROM $wpdb->options ORDER BY option_id LIMIT $start, 20" ) ) {
 			foreach ( $rows as $row ) {
-				$value = $row->option_value;
-				if ( ! @unserialize( $value ) ) {
+				$value = maybe_unserialize( $row->option_value );
+				if ( $value === $row->option_value ) {
 					$value = stripslashes( $value );
 				}
 				if ( $value !== $row->option_value ) {
@@ -2269,9 +2269,12 @@ function upgrade_590() {
 
 	if ( $wp_current_db_version < 51917 ) {
 		$crons = _get_cron_array();
-		// Remove errant `false` values, see #53950.
-		$crons = array_filter( $crons );
-		_set_cron_array( $crons );
+
+		if ( $crons && is_array( $crons ) ) {
+			// Remove errant `false` values, see #53950, #54906.
+			$crons = array_filter( $crons );
+			_set_cron_array( $crons );
+		}
 	}
 }
 

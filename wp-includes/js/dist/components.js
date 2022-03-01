@@ -1455,6 +1455,7 @@ module.exports = function() {
   // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
   var ReactPropTypes = {
     array: shim,
+    bigint: shim,
     bool: shim,
     func: shim,
     number: shim,
@@ -36097,13 +36098,21 @@ function mapToStyles(_ref2) {
       adaptive = _ref2.adaptive,
       roundOffsets = _ref2.roundOffsets,
       isFixed = _ref2.isFixed;
+  var _offsets$x = offsets.x,
+      x = _offsets$x === void 0 ? 0 : _offsets$x,
+      _offsets$y = offsets.y,
+      y = _offsets$y === void 0 ? 0 : _offsets$y;
 
-  var _ref3 = roundOffsets === true ? roundOffsetsByDPR(offsets) : typeof roundOffsets === 'function' ? roundOffsets(offsets) : offsets,
-      _ref3$x = _ref3.x,
-      x = _ref3$x === void 0 ? 0 : _ref3$x,
-      _ref3$y = _ref3.y,
-      y = _ref3$y === void 0 ? 0 : _ref3$y;
+  var _ref3 = typeof roundOffsets === 'function' ? roundOffsets({
+    x: x,
+    y: y
+  }) : {
+    x: x,
+    y: y
+  };
 
+  x = _ref3.x;
+  y = _ref3.y;
   var hasX = offsets.hasOwnProperty('x');
   var hasY = offsets.hasOwnProperty('y');
   var sideX = enums_left;
@@ -36148,6 +36157,17 @@ function mapToStyles(_ref2) {
     position: position
   }, adaptive && unsetSides);
 
+  var _ref4 = roundOffsets === true ? roundOffsetsByDPR({
+    x: x,
+    y: y
+  }) : {
+    x: x,
+    y: y
+  };
+
+  x = _ref4.x;
+  y = _ref4.y;
+
   if (gpuAcceleration) {
     var _Object$assign;
 
@@ -36157,9 +36177,9 @@ function mapToStyles(_ref2) {
   return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : '', _Object$assign2[sideX] = hasX ? x + "px" : '', _Object$assign2.transform = '', _Object$assign2));
 }
 
-function computeStyles(_ref4) {
-  var state = _ref4.state,
-      options = _ref4.options;
+function computeStyles(_ref5) {
+  var state = _ref5.state,
+      options = _ref5.options;
   var _options$gpuAccelerat = options.gpuAcceleration,
       gpuAcceleration = _options$gpuAccelerat === void 0 ? true : _options$gpuAccelerat,
       _options$adaptive = options.adaptive,
@@ -36522,7 +36542,7 @@ function getClippingParents(element) {
 
 
   return clippingParents.filter(function (clippingParent) {
-    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== 'body' && (canEscapeClipping ? getComputedStyle_getComputedStyle(clippingParent).position !== 'static' : true);
+    return isElement(clippingParent) && contains(clippingParent, clipperElement) && getNodeName(clippingParent) !== 'body';
   });
 } // Gets the maximum area that the element is visible in due to any number of
 // clipping parents
@@ -39553,7 +39573,7 @@ function ColorPalette(_ref6) {
     __experimentalIsRenderedInSidebar = false
   } = _ref6;
   const clearColor = Object(external_wp_element_["useCallback"])(() => onChange(undefined), [onChange]);
-  const Component = __experimentalHasMultipleOrigins ? MultiplePalettes : SinglePalette;
+  const Component = __experimentalHasMultipleOrigins && colors !== null && colors !== void 0 && colors.length ? MultiplePalettes : SinglePalette;
 
   const renderCustomColorPicker = () => Object(external_wp_element_["createElement"])(LegacyAdapter, {
     color: value,
@@ -39561,11 +39581,18 @@ function ColorPalette(_ref6) {
     enableAlpha: enableAlpha
   });
 
+  let dropdownPosition;
+
+  if (__experimentalIsRenderedInSidebar) {
+    dropdownPosition = 'bottom left';
+  }
+
   const colordColor = Object(colord["a" /* colord */])(value);
   return Object(external_wp_element_["createElement"])(v_stack_component, {
     spacing: 3,
     className: className
   }, !disableCustomColors && Object(external_wp_element_["createElement"])(CustomColorPickerDropdown, {
+    position: dropdownPosition,
     isRenderedInSidebar: __experimentalIsRenderedInSidebar,
     renderContent: renderCustomColorPicker,
     renderToggle: _ref7 => {
@@ -39856,8 +39883,7 @@ function GradientColorPickerDropdown(_ref2) {
 
     if (isRenderedInSidebar) {
       result.anchorRef = gradientPickerDomRef.current;
-      result.position = Object(external_wp_i18n_["isRTL"])() ? 'bottom right' : 'bottom left';
-      result.__unstableForcePosition = true;
+      result.position = 'bottom left';
     }
 
     return result;
@@ -41251,7 +41277,7 @@ const NameContainer = Object(emotion_styled_base_browser_esm["a" /* default */])
 } : undefined)("line-height:", space(8), ";margin-left:", space(2), ";margin-right:", space(2), ";white-space:nowrap;overflow:hidden;" + ( true ? "" : undefined));
 const PaletteHeading = /*#__PURE__*/Object(emotion_styled_base_browser_esm["a" /* default */])(heading_component,  true ? {
   target: "e5bw3225"
-} : undefined)("text-transform:uppercase;line-height:", space(6), ";&&&{margin-bottom:0;}" + ( true ? "" : undefined));
+} : undefined)("text-transform:uppercase;line-height:", space(6), ";font-weight:500;&&&{font-size:11px;margin-bottom:0;}" + ( true ? "" : undefined));
 const PaletteActionsContainer = /*#__PURE__*/Object(emotion_styled_base_browser_esm["a" /* default */])(view_component["a" /* default */],  true ? {
   target: "e5bw3224"
 } : undefined)("height:", space(6), ";display:flex;" + ( true ? "" : undefined));
@@ -46210,6 +46236,7 @@ function useMultipleSelection(userProps) {
 
 
 
+
 /**
  * Internal dependencies
  */
@@ -46301,7 +46328,13 @@ function CustomSelectControl(_ref3) {
   const menuProps = getMenuProps({
     className: 'components-custom-select-control__menu',
     'aria-hidden': !isOpen
-  }); // We need this here, because the null active descendant is not fully ARIA compliant.
+  });
+  const onKeyDownHandler = Object(external_wp_element_["useCallback"])(e => {
+    var _menuProps$onKeyDown;
+
+    e.stopPropagation();
+    menuProps === null || menuProps === void 0 ? void 0 : (_menuProps$onKeyDown = menuProps.onKeyDown) === null || _menuProps$onKeyDown === void 0 ? void 0 : _menuProps$onKeyDown.call(menuProps, e);
+  }, [menuProps]); // We need this here, because the null active descendant is not fully ARIA compliant.
 
   if ((_menuProps$ariaActiv = menuProps['aria-activedescendant']) !== null && _menuProps$ariaActiv !== void 0 && _menuProps$ariaActiv.startsWith('downshift-null')) {
     delete menuProps['aria-activedescendant'];
@@ -46325,7 +46358,9 @@ function CustomSelectControl(_ref3) {
   }), custom_select_control_itemToString(selectedItem), Object(external_wp_element_["createElement"])(build_module_icon["a" /* default */], {
     icon: chevron_down["a" /* default */],
     className: "components-custom-select-control__button-icon"
-  })), Object(external_wp_element_["createElement"])("ul", menuProps, isOpen && items.map((item, index) => // eslint-disable-next-line react/jsx-key
+  })), Object(external_wp_element_["createElement"])("ul", Object(esm_extends["a" /* default */])({}, menuProps, {
+    onKeyDown: onKeyDownHandler
+  }), isOpen && items.map((item, index) => // eslint-disable-next-line react/jsx-key
   Object(external_wp_element_["createElement"])("li", getItemProps({
     item,
     index,
@@ -50962,26 +50997,37 @@ function ToggleGroupControlBackdrop(_ref) {
       return;
     }
 
-    const {
-      x: parentX
-    } = containerNode.getBoundingClientRect();
-    const {
-      width: offsetWidth,
-      x
-    } = targetNode.getBoundingClientRect();
-    const borderWidth = 1;
-    const offsetLeft = x - parentX - borderWidth;
-    setLeft(offsetLeft);
-    setWidth(offsetWidth);
-    let requestId;
+    const computeDimensions = () => {
+      const {
+        width: offsetWidth,
+        x
+      } = targetNode.getBoundingClientRect();
+      const {
+        x: parentX
+      } = containerNode.getBoundingClientRect();
+      const borderWidth = 1;
+      const offsetLeft = x - parentX - borderWidth;
+      setLeft(offsetLeft);
+      setWidth(offsetWidth);
+    }; // Fix to make the component appear as expected inside popovers.
+    // If the targetNode width is 0 it means the element was not yet rendered we should allow
+    // some time for the render to happen.
+    // requestAnimationFrame instead of setTimeout with a small time does not seems to work.
+
+
+    const dimensionsRequestId = window.setTimeout(computeDimensions, 100);
+    let animationRequestId;
 
     if (!canAnimate) {
-      requestId = window.requestAnimationFrame(() => {
+      animationRequestId = window.requestAnimationFrame(() => {
         setCanAnimate(true);
       });
     }
 
-    return () => window.cancelAnimationFrame(requestId);
+    return () => {
+      window.clearTimeout(dimensionsRequestId);
+      window.cancelAnimationFrame(animationRequestId);
+    };
   }, [canAnimate, containerRef, containerWidth, state, isAdaptiveWidth]);
 
   if (!renderBackdrop) {
@@ -51484,12 +51530,13 @@ const FONT_SIZES_ALIASES = ['1', '2', '3', '4', '5'];
  */
 
 function splitValueAndUnitFromSize(size) {
-  /**
-   * The first matched result is ignored as it's the left
-   * hand side of the capturing group in the regex.
-   */
-  const [, numericValue, unit] = size.split(/(\d+)/);
-  return [numericValue, unit];
+  const [numericValue, unit] = `${size}`.match(/[\d\.]+|\D+/g);
+
+  if (!isNaN(parseFloat(numericValue)) && isFinite(numericValue)) {
+    return [numericValue, unit];
+  }
+
+  return [];
 }
 /**
  * Some themes use css vars for their font sizes, so until we
@@ -51500,7 +51547,7 @@ function splitValueAndUnitFromSize(size) {
  */
 
 function isSimpleCssValue(value) {
-  const sizeRegex = /^(?!0)\d+(px|em|rem|vw|vh|%)?$/i;
+  const sizeRegex = /^[\d\.]+(px|em|rem|vw|vh|%)?$/i;
   return sizeRegex.test(value);
 }
 /**
@@ -51534,7 +51581,7 @@ function getSelectOptions(optionsArray, disableCustomFontSizes) {
       key: slug,
       name,
       size,
-      __experimentalHint: size && isSimpleCssValue(size) && parseInt(size)
+      __experimentalHint: size && isSimpleCssValue(size) && parseFloat(size)
     };
   });
 }
@@ -58858,20 +58905,28 @@ const DEFAULT_COLUMNS = 2;
 const generateMenuItems = _ref => {
   let {
     panelItems,
-    shouldReset
+    shouldReset,
+    currentMenuItems
   } = _ref;
   const menuItems = {
     default: {},
     optional: {}
   };
   panelItems.forEach(_ref2 => {
+    var _currentMenuItems$gro;
+
     let {
       hasValue,
       isShownByDefault,
       label
     } = _ref2;
-    const group = isShownByDefault ? 'default' : 'optional';
-    menuItems[group][label] = shouldReset ? false : hasValue();
+    const group = isShownByDefault ? 'default' : 'optional'; // If a menu item for this label already exists, do not overwrite its value.
+    // This can cause default controls that have been flagged as customized to
+    // lose their value.
+
+    const existingItemValue = currentMenuItems === null || currentMenuItems === void 0 ? void 0 : (_currentMenuItems$gro = currentMenuItems[group]) === null || _currentMenuItems$gro === void 0 ? void 0 : _currentMenuItems$gro[label];
+    const value = existingItemValue !== undefined ? existingItemValue : hasValue();
+    menuItems[group][label] = shouldReset ? false : value;
   });
   return menuItems;
 };
@@ -58900,7 +58955,19 @@ function useToolsPanel(props) {
   const [panelItems, setPanelItems] = Object(external_wp_element_["useState"])([]);
 
   const registerPanelItem = item => {
-    setPanelItems(items => [...items, item]);
+    setPanelItems(items => {
+      const newItems = [...items]; // If an item with this label is already registered, remove it first.
+      // This can happen when an item is moved between the default and optional
+      // groups.
+
+      const existingIndex = newItems.findIndex(oldItem => oldItem.label === item.label);
+
+      if (existingIndex !== -1) {
+        newItems.splice(existingIndex, 1);
+      }
+
+      return [...newItems, item];
+    });
   }; // Panels need to deregister on unmount to avoid orphans in menu state.
   // This is an issue when panel items are being injected via SlotFills.
 
@@ -58910,11 +58977,16 @@ function useToolsPanel(props) {
     // controls, e.g. both panels have a "padding" control, the
     // deregistration of the first panel doesn't occur until after the
     // registration of the next.
-    const index = panelItems.findIndex(item => item.label === label);
+    setPanelItems(items => {
+      const newItems = [...items];
+      const index = newItems.findIndex(item => item.label === label);
 
-    if (index !== -1) {
-      setPanelItems(items => items.splice(index, 1));
-    }
+      if (index !== -1) {
+        newItems.splice(index, 1);
+      }
+
+      return newItems;
+    });
   }; // Manage and share display state of menu items representing child controls.
 
 
@@ -58924,22 +58996,28 @@ function useToolsPanel(props) {
   }); // Setup menuItems state as panel items register themselves.
 
   Object(external_wp_element_["useEffect"])(() => {
-    const items = generateMenuItems({
-      panelItems,
-      shouldReset: false
+    setMenuItems(prevState => {
+      const items = generateMenuItems({
+        panelItems,
+        shouldReset: false,
+        currentMenuItems: prevState
+      });
+      return items;
     });
-    setMenuItems(items);
   }, [panelItems]); // Force a menu item to be checked.
   // This is intended for use with default panel items. They are displayed
   // separately to optional items and have different display states,
-  //.we need to update that when their value is customized.
+  // we need to update that when their value is customized.
 
   const flagItemCustomization = function (label) {
     let group = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'default';
-    setMenuItems({ ...menuItems,
-      [group]: { ...menuItems[group],
-        [label]: true
-      }
+    setMenuItems(items => {
+      const newState = { ...items,
+        [group]: { ...items[group],
+          [label]: true
+        }
+      };
+      return newState;
     });
   }; // Whether all optional menu items are hidden or not must be tracked
   // in order to later determine if the panel display is empty and handle
@@ -59374,7 +59452,7 @@ function TreeGrid(_ref, ref) {
 
           // Left:
           // If a row is focused, and it is expanded, collapses the current row.
-          if ((activeRow === null || activeRow === void 0 ? void 0 : activeRow.ariaExpanded) === 'true') {
+          if (activeRow.getAttribute('aria-expanded') === 'true') {
             onCollapseRow(activeRow);
             event.preventDefault();
             return;
@@ -59394,10 +59472,12 @@ function TreeGrid(_ref, ref) {
           }
 
           (_getRowFocusables = getRowFocusables(parentRow)) === null || _getRowFocusables === void 0 ? void 0 : (_getRowFocusables$ = _getRowFocusables[0]) === null || _getRowFocusables$ === void 0 ? void 0 : _getRowFocusables$.focus();
-        } else {
+        }
+
+        if (keyCode === external_wp_keycodes_["RIGHT"]) {
           // Right:
           // If a row is focused, and it is collapsed, expands the current row.
-          if ((activeRow === null || activeRow === void 0 ? void 0 : activeRow.ariaExpanded) === 'false') {
+          if (activeRow.getAttribute('aria-expanded') === 'false') {
             onExpandRow(activeRow);
             event.preventDefault();
             return;
@@ -59464,7 +59544,7 @@ function TreeGrid(_ref, ref) {
 
       event.preventDefault();
     }
-  }, []);
+  }, [onExpandRow, onCollapseRow]);
   /* Disable reason: A treegrid is implemented using a table element. */
 
   /* eslint-disable jsx-a11y/no-noninteractive-element-to-interactive-role */

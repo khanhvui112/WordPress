@@ -1391,7 +1391,6 @@ figure.wp-block-image:not(.wp-block) {
 }
 
 .wp-block-navigation-placeholder__controls {
-  padding: 8px;
   border-radius: 2px;
   background-color: #fff;
   box-shadow: inset 0 0 0 1px #1e1e1e;
@@ -1400,19 +1399,23 @@ figure.wp-block-image:not(.wp-block) {
   display: none;
   position: relative;
   z-index: 1;
+  padding: 4px 8px;
   float: right;
   width: 100%;
-}
-.is-large .wp-block-navigation-placeholder__controls {
-  padding: 4px 8px;
 }
 .wp-block-navigation.is-selected .wp-block-navigation-placeholder__controls {
   display: flex;
 }
-.is-small .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions, .is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions {
+.is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions__indicator,
+.is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions__indicator + hr,
+.is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions > :nth-last-child(3),
+.is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions > :nth-last-child(2) {
+  display: none;
+}
+.is-small .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions {
   flex-direction: column;
 }
-.is-small .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions hr, .is-medium .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions hr {
+.is-small .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions hr {
   display: none;
 }
 .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__icon {
@@ -1430,6 +1433,10 @@ figure.wp-block-image:not(.wp-block) {
 }
 .wp-block-navigation-placeholder__controls .wp-block-navigation-placeholder__actions__indicator svg {
   margin-left: 4px;
+}
+
+.wp-block-navigation .components-placeholder.is-medium .components-placeholder__fieldset {
+  flex-direction: row !important;
 }
 
 .wp-block-navigation-placeholder__actions {
@@ -1784,6 +1791,10 @@ body.editor-styles-wrapper .wp-block-navigation__responsive-container.is-menu-op
   width: auto;
   height: auto;
   min-width: 200px;
+}
+
+.wp-block-page-list .components-notice {
+  margin-right: 0;
 }
 
 .block-editor-block-list__block[data-type="core/paragraph"].has-drop-cap:focus {
@@ -2183,6 +2194,10 @@ body.editor-styles-wrapper .wp-block-navigation__responsive-container.is-menu-op
 
 .block-library-spacer__resize-container {
   clear: both;
+}
+.block-library-spacer__resize-container:not(.is-resizing) {
+  height: 100% !important;
+  width: 100% !important;
 }
 .block-library-spacer__resize-container .components-resizable-box__handle::before {
   content: none;
@@ -2588,13 +2603,6 @@ div[data-type="core/post-featured-image"] img {
   display: block;
 }
 
-.block-library-post-featured-image-dimension-controls {
-  margin-bottom: 8px;
-}
-.block-library-post-featured-image-dimension-controls.scale-control-is-visible {
-  margin-bottom: 16px;
-}
-
 :root .editor-styles-wrapper {
   /*
    * Our classes uses the same values we set for gradient value attributes,
@@ -2602,8 +2610,6 @@ div[data-type="core/post-featured-image"] img {
    */
   /* stylelint-disable function-comma-space-after */
   /* stylelint-enable function-comma-space-after */
-  --wp--preset--font-size--normal: 16px;
-  --wp--preset--font-size--huge: 42px;
 }
 :root .editor-styles-wrapper .has-very-light-gray-background-color {
   background-color: #eee;
@@ -2639,6 +2645,11 @@ div[data-type="core/post-featured-image"] img {
   background: linear-gradient(-135deg, #020381 0%, #2874fc 100%);
 }
 
+.editor-styles-wrapper {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+
 .editor-styles-wrapper .has-regular-font-size {
   font-size: 16px;
 }
@@ -2648,11 +2659,11 @@ div[data-type="core/post-featured-image"] img {
 }
 
 .editor-styles-wrapper .has-normal-font-size {
-  font-size: var(--wp--preset--font-size--normal) !important;
+  font-size: var(--wp--preset--font-size--normal);
 }
 
 .editor-styles-wrapper .has-huge-font-size {
-  font-size: var(--wp--preset--font-size--huge) !important;
+  font-size: var(--wp--preset--font-size--huge);
 }
 
 /**

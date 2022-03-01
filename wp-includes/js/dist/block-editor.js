@@ -2527,21 +2527,21 @@ function useMultipleOriginColorsAndGradients() {
 "use strict";
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "hc", function() { return /* reexport */ components_colors["b" /* getColorClassName */]; });
-__webpack_require__.d(__webpack_exports__, "ic", function() { return /* reexport */ components_colors["c" /* getColorObjectByAttributeValues */]; });
-__webpack_require__.d(__webpack_exports__, "jc", function() { return /* reexport */ components_colors["d" /* getColorObjectByColorValue */]; });
-__webpack_require__.d(__webpack_exports__, "gc", function() { return /* reexport */ components_colors["a" /* createCustomColorsHOC */]; });
-__webpack_require__.d(__webpack_exports__, "vc", function() { return /* reexport */ components_colors["e" /* withColors */]; });
-__webpack_require__.d(__webpack_exports__, "xb", function() { return /* reexport */ gradients["a" /* __experimentalGetGradientClass */]; });
-__webpack_require__.d(__webpack_exports__, "oc", function() { return /* reexport */ gradients["e" /* getGradientValueBySlug */]; });
-__webpack_require__.d(__webpack_exports__, "yb", function() { return /* reexport */ gradients["b" /* __experimentalGetGradientObjectByGradientValue */]; });
-__webpack_require__.d(__webpack_exports__, "nc", function() { return /* reexport */ gradients["d" /* getGradientSlugByValue */]; });
-__webpack_require__.d(__webpack_exports__, "Sb", function() { return /* reexport */ gradients["c" /* __experimentalUseGradient */]; });
-__webpack_require__.d(__webpack_exports__, "kc", function() { return /* reexport */ font_sizes["b" /* getFontSize */]; });
-__webpack_require__.d(__webpack_exports__, "lc", function() { return /* reexport */ font_sizes["c" /* getFontSizeClass */]; });
-__webpack_require__.d(__webpack_exports__, "mc", function() { return /* reexport */ font_sizes["d" /* getFontSizeObjectByValue */]; });
+__webpack_require__.d(__webpack_exports__, "ic", function() { return /* reexport */ components_colors["b" /* getColorClassName */]; });
+__webpack_require__.d(__webpack_exports__, "jc", function() { return /* reexport */ components_colors["c" /* getColorObjectByAttributeValues */]; });
+__webpack_require__.d(__webpack_exports__, "kc", function() { return /* reexport */ components_colors["d" /* getColorObjectByColorValue */]; });
+__webpack_require__.d(__webpack_exports__, "hc", function() { return /* reexport */ components_colors["a" /* createCustomColorsHOC */]; });
+__webpack_require__.d(__webpack_exports__, "wc", function() { return /* reexport */ components_colors["e" /* withColors */]; });
+__webpack_require__.d(__webpack_exports__, "yb", function() { return /* reexport */ gradients["a" /* __experimentalGetGradientClass */]; });
+__webpack_require__.d(__webpack_exports__, "pc", function() { return /* reexport */ gradients["e" /* getGradientValueBySlug */]; });
+__webpack_require__.d(__webpack_exports__, "zb", function() { return /* reexport */ gradients["b" /* __experimentalGetGradientObjectByGradientValue */]; });
+__webpack_require__.d(__webpack_exports__, "oc", function() { return /* reexport */ gradients["d" /* getGradientSlugByValue */]; });
+__webpack_require__.d(__webpack_exports__, "Tb", function() { return /* reexport */ gradients["c" /* __experimentalUseGradient */]; });
+__webpack_require__.d(__webpack_exports__, "lc", function() { return /* reexport */ font_sizes["b" /* getFontSize */]; });
+__webpack_require__.d(__webpack_exports__, "mc", function() { return /* reexport */ font_sizes["c" /* getFontSizeClass */]; });
+__webpack_require__.d(__webpack_exports__, "nc", function() { return /* reexport */ font_sizes["d" /* getFontSizeObjectByValue */]; });
 __webpack_require__.d(__webpack_exports__, "I", function() { return /* reexport */ font_sizes["a" /* FontSizePicker */]; });
-__webpack_require__.d(__webpack_exports__, "wc", function() { return /* reexport */ font_sizes["e" /* withFontSizes */]; });
+__webpack_require__.d(__webpack_exports__, "xc", function() { return /* reexport */ font_sizes["e" /* withFontSizes */]; });
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ AlignmentControl; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ AlignmentToolbar; });
 __webpack_require__.d(__webpack_exports__, "c", function() { return /* reexport */ autocomplete; });
@@ -2556,7 +2556,7 @@ __webpack_require__.d(__webpack_exports__, "i", function() { return /* reexport 
 __webpack_require__.d(__webpack_exports__, "m", function() { return /* reexport */ block_controls["a" /* BlockFormatControls */]; });
 __webpack_require__.d(__webpack_exports__, "g", function() { return /* reexport */ color_style_selector; });
 __webpack_require__.d(__webpack_exports__, "j", function() { return /* reexport */ block_edit["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "qc", function() { return /* reexport */ context["c" /* useBlockEditContext */]; });
+__webpack_require__.d(__webpack_exports__, "rc", function() { return /* reexport */ context["c" /* useBlockEditContext */]; });
 __webpack_require__.d(__webpack_exports__, "n", function() { return /* reexport */ block_icon["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "r", function() { return /* reexport */ dropdown; });
 __webpack_require__.d(__webpack_exports__, "pb", function() { return /* reexport */ block_variation_picker; });
@@ -2571,89 +2571,90 @@ __webpack_require__.d(__webpack_exports__, "B", function() { return /* reexport 
 __webpack_require__.d(__webpack_exports__, "D", function() { return /* reexport */ color_palette; });
 __webpack_require__.d(__webpack_exports__, "E", function() { return /* reexport */ ColorPaletteControl; });
 __webpack_require__.d(__webpack_exports__, "F", function() { return /* reexport */ contrast_checker["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "ub", function() { return /* reexport */ duotone_control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "vb", function() { return /* reexport */ font_appearance_control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "wb", function() { return /* reexport */ font_family["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Eb", function() { return /* reexport */ letter_spacing_control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Ob", function() { return /* reexport */ text_decoration_control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Pb", function() { return /* reexport */ text_transform_control["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "vb", function() { return /* reexport */ duotone_control["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "wb", function() { return /* reexport */ font_appearance_control["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "xb", function() { return /* reexport */ font_family["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Fb", function() { return /* reexport */ letter_spacing_control["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Pb", function() { return /* reexport */ text_decoration_control["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Qb", function() { return /* reexport */ text_transform_control["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "tb", function() { return /* reexport */ control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Lb", function() { return /* reexport */ panel_color_gradient_settings["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Ab", function() { return /* reexport */ ImageEditor; });
-__webpack_require__.d(__webpack_exports__, "zb", function() { return /* reexport */ ImageEditingProvider; });
-__webpack_require__.d(__webpack_exports__, "Bb", function() { return /* reexport */ ImageSizeControl; });
+__webpack_require__.d(__webpack_exports__, "ub", function() { return /* reexport */ colors_gradients_dropdown["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Mb", function() { return /* reexport */ panel_color_gradient_settings["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Bb", function() { return /* reexport */ ImageEditor; });
+__webpack_require__.d(__webpack_exports__, "Ab", function() { return /* reexport */ ImageEditingProvider; });
+__webpack_require__.d(__webpack_exports__, "Cb", function() { return /* reexport */ ImageSizeControl; });
 __webpack_require__.d(__webpack_exports__, "J", function() { return /* reexport */ inner_blocks["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "sc", function() { return /* reexport */ inner_blocks["b" /* useInnerBlocksProps */]; });
+__webpack_require__.d(__webpack_exports__, "tc", function() { return /* reexport */ inner_blocks["b" /* useInnerBlocksProps */]; });
 __webpack_require__.d(__webpack_exports__, "M", function() { return /* reexport */ inspector_controls["b" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "L", function() { return /* reexport */ inspector_controls["a" /* InspectorAdvancedControls */]; });
 __webpack_require__.d(__webpack_exports__, "O", function() { return /* reexport */ justify_content_control["b" /* JustifyToolbar */]; });
 __webpack_require__.d(__webpack_exports__, "N", function() { return /* reexport */ justify_content_control["a" /* JustifyContentControl */]; });
-__webpack_require__.d(__webpack_exports__, "Gb", function() { return /* reexport */ link_control; });
-__webpack_require__.d(__webpack_exports__, "Hb", function() { return /* reexport */ search_input; });
-__webpack_require__.d(__webpack_exports__, "Jb", function() { return /* reexport */ LinkControlSearchResults; });
-__webpack_require__.d(__webpack_exports__, "Ib", function() { return /* reexport */ search_item; });
+__webpack_require__.d(__webpack_exports__, "Hb", function() { return /* reexport */ link_control; });
+__webpack_require__.d(__webpack_exports__, "Ib", function() { return /* reexport */ search_input; });
+__webpack_require__.d(__webpack_exports__, "Kb", function() { return /* reexport */ LinkControlSearchResults; });
+__webpack_require__.d(__webpack_exports__, "Jb", function() { return /* reexport */ search_item; });
 __webpack_require__.d(__webpack_exports__, "P", function() { return /* reexport */ line_height_control["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Kb", function() { return /* reexport */ components_list_view; });
+__webpack_require__.d(__webpack_exports__, "Lb", function() { return /* reexport */ components_list_view; });
 __webpack_require__.d(__webpack_exports__, "R", function() { return /* reexport */ media_replace_flow; });
 __webpack_require__.d(__webpack_exports__, "Q", function() { return /* reexport */ media_placeholder; });
 __webpack_require__.d(__webpack_exports__, "S", function() { return /* reexport */ media_upload; });
 __webpack_require__.d(__webpack_exports__, "T", function() { return /* reexport */ media_upload_check; });
 __webpack_require__.d(__webpack_exports__, "X", function() { return /* reexport */ panel_color_settings; });
 __webpack_require__.d(__webpack_exports__, "Y", function() { return /* reexport */ plain_text; });
-__webpack_require__.d(__webpack_exports__, "Nb", function() { return /* reexport */ responsive_block_control; });
+__webpack_require__.d(__webpack_exports__, "Ob", function() { return /* reexport */ responsive_block_control; });
 __webpack_require__.d(__webpack_exports__, "ab", function() { return /* reexport */ rich_text; });
 __webpack_require__.d(__webpack_exports__, "bb", function() { return /* reexport */ RichTextShortcut; });
 __webpack_require__.d(__webpack_exports__, "cb", function() { return /* reexport */ RichTextToolbarButton; });
-__webpack_require__.d(__webpack_exports__, "Zb", function() { return /* reexport */ __unstableRichTextInputEvent; });
+__webpack_require__.d(__webpack_exports__, "ac", function() { return /* reexport */ __unstableRichTextInputEvent; });
 __webpack_require__.d(__webpack_exports__, "eb", function() { return /* reexport */ tool_selector; });
-__webpack_require__.d(__webpack_exports__, "Qb", function() { return /* reexport */ UnitControl; });
+__webpack_require__.d(__webpack_exports__, "Rb", function() { return /* reexport */ UnitControl; });
 __webpack_require__.d(__webpack_exports__, "gb", function() { return /* reexport */ url_input; });
 __webpack_require__.d(__webpack_exports__, "hb", function() { return /* reexport */ url_input_button; });
 __webpack_require__.d(__webpack_exports__, "ib", function() { return /* reexport */ url_popover; });
-__webpack_require__.d(__webpack_exports__, "Cb", function() { return /* reexport */ ImageURLInputUI; });
-__webpack_require__.d(__webpack_exports__, "uc", function() { return /* reexport */ with_color_context; });
-__webpack_require__.d(__webpack_exports__, "Vb", function() { return /* reexport */ block_settings_menu_first_item["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Yb", function() { return /* reexport */ inserter_menu_extension["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Mb", function() { return /* reexport */ PreviewOptions; });
-__webpack_require__.d(__webpack_exports__, "Ub", function() { return /* reexport */ useResizeCanvas; });
+__webpack_require__.d(__webpack_exports__, "Db", function() { return /* reexport */ ImageURLInputUI; });
+__webpack_require__.d(__webpack_exports__, "vc", function() { return /* reexport */ with_color_context; });
+__webpack_require__.d(__webpack_exports__, "Wb", function() { return /* reexport */ block_settings_menu_first_item["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Zb", function() { return /* reexport */ inserter_menu_extension["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Nb", function() { return /* reexport */ PreviewOptions; });
+__webpack_require__.d(__webpack_exports__, "Vb", function() { return /* reexport */ useResizeCanvas; });
 __webpack_require__.d(__webpack_exports__, "o", function() { return /* reexport */ block_inspector; });
 __webpack_require__.d(__webpack_exports__, "p", function() { return /* reexport */ block_list["c" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "rc", function() { return /* reexport */ use_block_props["a" /* useBlockProps */]; });
-__webpack_require__.d(__webpack_exports__, "Db", function() { return /* reexport */ block_list_layout["b" /* LayoutStyle */]; });
+__webpack_require__.d(__webpack_exports__, "sc", function() { return /* reexport */ use_block_props["a" /* useBlockProps */]; });
+__webpack_require__.d(__webpack_exports__, "Eb", function() { return /* reexport */ block_list_layout["b" /* LayoutStyle */]; });
 __webpack_require__.d(__webpack_exports__, "q", function() { return /* reexport */ block_mover["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "s", function() { return /* reexport */ block_preview["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Rb", function() { return /* reexport */ block_preview["b" /* useBlockPreview */]; });
+__webpack_require__.d(__webpack_exports__, "Sb", function() { return /* reexport */ block_preview["b" /* useBlockPreview */]; });
 __webpack_require__.d(__webpack_exports__, "t", function() { return /* reexport */ block_selection_clearer["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "ac", function() { return /* reexport */ block_selection_clearer["b" /* useBlockSelectionClearer */]; });
+__webpack_require__.d(__webpack_exports__, "bc", function() { return /* reexport */ block_selection_clearer["b" /* useBlockSelectionClearer */]; });
 __webpack_require__.d(__webpack_exports__, "u", function() { return /* reexport */ block_settings_menu["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "v", function() { return /* reexport */ block_settings_menu_controls["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "w", function() { return /* reexport */ block_title["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "x", function() { return /* reexport */ block_toolbar["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "y", function() { return /* reexport */ BlockTools; });
 __webpack_require__.d(__webpack_exports__, "G", function() { return /* reexport */ copy_handler["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "cc", function() { return /* reexport */ copy_handler["b" /* useClipboardHandler */]; });
+__webpack_require__.d(__webpack_exports__, "dc", function() { return /* reexport */ copy_handler["b" /* useClipboardHandler */]; });
 __webpack_require__.d(__webpack_exports__, "H", function() { return /* reexport */ default_block_appender["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Wb", function() { return /* reexport */ editor_styles["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Xb", function() { return /* reexport */ editor_styles["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "K", function() { return /* reexport */ inserter["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Fb", function() { return /* reexport */ library; });
+__webpack_require__.d(__webpack_exports__, "Gb", function() { return /* reexport */ library; });
 __webpack_require__.d(__webpack_exports__, "k", function() { return /* reexport */ keyboard_shortcuts; });
 __webpack_require__.d(__webpack_exports__, "U", function() { return /* reexport */ MultiSelectScrollIntoView; });
 __webpack_require__.d(__webpack_exports__, "V", function() { return /* reexport */ navigable_toolbar["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "W", function() { return /* reexport */ observe_typing; });
-__webpack_require__.d(__webpack_exports__, "fc", function() { return /* reexport */ useTypingObserver; });
-__webpack_require__.d(__webpack_exports__, "dc", function() { return /* reexport */ useMouseMoveTypingReset; });
+__webpack_require__.d(__webpack_exports__, "gc", function() { return /* reexport */ useTypingObserver; });
+__webpack_require__.d(__webpack_exports__, "ec", function() { return /* reexport */ useMouseMoveTypingReset; });
 __webpack_require__.d(__webpack_exports__, "Z", function() { return /* reexport */ PreserveScrollInReorder; });
 __webpack_require__.d(__webpack_exports__, "db", function() { return /* reexport */ skip_to_selected_block; });
 __webpack_require__.d(__webpack_exports__, "fb", function() { return /* reexport */ typewriter; });
-__webpack_require__.d(__webpack_exports__, "ec", function() { return /* reexport */ useTypewriter; });
+__webpack_require__.d(__webpack_exports__, "fc", function() { return /* reexport */ useTypewriter; });
 __webpack_require__.d(__webpack_exports__, "jb", function() { return /* reexport */ warning["a" /* default */]; });
 __webpack_require__.d(__webpack_exports__, "kb", function() { return /* reexport */ writing_flow["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "bc", function() { return /* reexport */ useCanvasClickRedirect; });
-__webpack_require__.d(__webpack_exports__, "pc", function() { return /* reexport */ use_block_display_information["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Xb", function() { return /* reexport */ iframe["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "Tb", function() { return /* reexport */ useNoRecursiveRenders; });
+__webpack_require__.d(__webpack_exports__, "cc", function() { return /* reexport */ useCanvasClickRedirect; });
+__webpack_require__.d(__webpack_exports__, "qc", function() { return /* reexport */ use_block_display_information["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Yb", function() { return /* reexport */ iframe["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "Ub", function() { return /* reexport */ useNoRecursiveRenders; });
 __webpack_require__.d(__webpack_exports__, "l", function() { return /* reexport */ provider["a" /* default */]; });
-__webpack_require__.d(__webpack_exports__, "tc", function() { return /* reexport */ use_setting["a" /* default */]; });
+__webpack_require__.d(__webpack_exports__, "uc", function() { return /* reexport */ use_setting["a" /* default */]; });
 
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors/index.js + 1 modules
 var components_colors = __webpack_require__("5gPN");
@@ -5416,6 +5417,9 @@ var text_decoration_control = __webpack_require__("kVRd");
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/text-transform-control/index.js + 3 modules
 var text_transform_control = __webpack_require__("/Hvg");
 
+// EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors-gradients/dropdown.js
+var colors_gradients_dropdown = __webpack_require__("dchM");
+
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors-gradients/panel-color-gradient-settings.js
 var panel_color_gradient_settings = __webpack_require__("yU1v");
 
@@ -7839,20 +7843,8 @@ const LinkControlSearchCreate = _ref => {
 };
 /* harmony default export */ var search_create_button = (LinkControlSearchCreate);
 
-// CONCATENATED MODULE: ./node_modules/@wordpress/icons/build-module/library/globe.js
-
-
-/**
- * WordPress dependencies
- */
-
-const globe = Object(external_wp_element_["createElement"])(external_wp_primitives_["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 24 24"
-}, Object(external_wp_element_["createElement"])(external_wp_primitives_["Path"], {
-  d: "M12 3.3c-4.8 0-8.8 3.9-8.8 8.8 0 4.8 3.9 8.8 8.8 8.8 4.8 0 8.8-3.9 8.8-8.8s-4-8.8-8.8-8.8zm6.5 5.5h-2.6C15.4 7.3 14.8 6 14 5c2 .6 3.6 2 4.5 3.8zm.7 3.2c0 .6-.1 1.2-.2 1.8h-2.9c.1-.6.1-1.2.1-1.8s-.1-1.2-.1-1.8H19c.2.6.2 1.2.2 1.8zM12 18.7c-1-.7-1.8-1.9-2.3-3.5h4.6c-.5 1.6-1.3 2.9-2.3 3.5zm-2.6-4.9c-.1-.6-.1-1.1-.1-1.8 0-.6.1-1.2.1-1.8h5.2c.1.6.1 1.1.1 1.8s-.1 1.2-.1 1.8H9.4zM4.8 12c0-.6.1-1.2.2-1.8h2.9c-.1.6-.1 1.2-.1 1.8 0 .6.1 1.2.1 1.8H5c-.2-.6-.2-1.2-.2-1.8zM12 5.3c1 .7 1.8 1.9 2.3 3.5H9.7c.5-1.6 1.3-2.9 2.3-3.5zM10 5c-.8 1-1.4 2.3-1.8 3.8H5.5C6.4 7 8 5.6 10 5zM5.5 15.3h2.6c.4 1.5 1 2.8 1.8 3.7-1.8-.6-3.5-2-4.4-3.7zM14 19c.8-1 1.4-2.2 1.8-3.7h2.6C17.6 17 16 18.4 14 19z"
-}));
-/* harmony default export */ var library_globe = (globe);
+// EXTERNAL MODULE: ./node_modules/@wordpress/icons/build-module/library/globe.js
+var globe = __webpack_require__("K8zD");
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/block-editor/build-module/components/link-control/search-item.js
 
@@ -7889,7 +7881,7 @@ const LinkControlSearchItem = _ref => {
     })
   }), isURL && Object(external_wp_element_["createElement"])(build_module_icon["a" /* default */], {
     className: "block-editor-link-control__search-item-icon",
-    icon: library_globe
+    icon: globe["a" /* default */]
   }), Object(external_wp_element_["createElement"])("span", {
     className: "block-editor-link-control__search-item-header"
   }, Object(external_wp_element_["createElement"])("span", {
@@ -8434,6 +8426,8 @@ function useRemoteUrlData(url) {
 
 
 function LinkPreview(_ref) {
+  var _value$url;
+
   let {
     value,
     onEditClick,
@@ -8450,8 +8444,9 @@ function LinkPreview(_ref) {
 
   const hasRichData = richData && Object.keys(richData).length;
   const displayURL = value && Object(external_wp_url_["filterURLForDisplay"])(Object(external_wp_url_["safeDecodeURI"])(value.url), 16) || '';
-  const displayTitle = (richData === null || richData === void 0 ? void 0 : richData.title) || (value === null || value === void 0 ? void 0 : value.title) || displayURL;
-  const isEmptyURL = !value.url.length;
+  const displayTitle = (richData === null || richData === void 0 ? void 0 : richData.title) || (value === null || value === void 0 ? void 0 : value.title) || displayURL; // url can be undefined if the href attribute is unset
+
+  const isEmptyURL = !(value !== null && value !== void 0 && (_value$url = value.url) !== null && _value$url !== void 0 && _value$url.length);
   let icon;
 
   if (richData !== null && richData !== void 0 && richData.icon) {
@@ -8466,7 +8461,7 @@ function LinkPreview(_ref) {
     });
   } else {
     icon = Object(external_wp_element_["createElement"])(build_module_icon["a" /* default */], {
-      icon: library_globe
+      icon: globe["a" /* default */]
     });
   }
 
@@ -12733,6 +12728,15 @@ function BlockTools(_ref) {
         insertBeforeBlock(Object(external_lodash_["first"])(clientIds));
       }
     } else if (isMatch('core/block-editor/delete-multi-selection', event)) {
+      /**
+       * Check if the target element is a text area, input or
+       * event.defaultPrevented and return early. In all these
+       * cases backspace could be handled elsewhere.
+       */
+      if (['INPUT', 'TEXTAREA'].includes(event.target.nodeName) || event.defaultPrevented) {
+        return;
+      }
+
       const clientIds = getSelectedBlockClientIds();
 
       if (clientIds.length > 1) {
@@ -13657,6 +13661,7 @@ var provider = __webpack_require__("/QNa");
 
 
 
+
 /*
  * Content Related Components
  */
@@ -13746,6 +13751,7 @@ module.exports = function() {
   // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
   var ReactPropTypes = {
     array: shim,
+    bigint: shim,
     bool: shim,
     func: shim,
     number: shim,
@@ -19177,6 +19183,9 @@ var rememo = __webpack_require__("pPDe");
 // EXTERNAL MODULE: external ["wp","element"]
 var external_wp_element_ = __webpack_require__("GRId");
 
+// EXTERNAL MODULE: external ["wp","hooks"]
+var external_wp_hooks_ = __webpack_require__("g56x");
+
 // EXTERNAL MODULE: ./node_modules/@wordpress/icons/build-module/library/symbol.js
 var symbol = __webpack_require__("+WrK");
 
@@ -19189,6 +19198,7 @@ var symbol = __webpack_require__("+WrK");
 /**
  * WordPress dependencies
  */
+
 
 
 
@@ -20378,16 +20388,32 @@ const canInsertBlockTypeUnmemoized = function (state, blockName) {
   const blockAllowedParentBlocks = blockType.parent;
   const parentName = getBlockName(state, rootClientId);
   const hasBlockAllowedParent = checkAllowList(blockAllowedParentBlocks, parentName);
+  const canInsert = hasParentAllowedBlock === null && hasBlockAllowedParent === null || hasParentAllowedBlock === true || hasBlockAllowedParent === true;
 
-  if (hasParentAllowedBlock !== null && hasBlockAllowedParent !== null) {
-    return hasParentAllowedBlock || hasBlockAllowedParent;
-  } else if (hasParentAllowedBlock !== null) {
-    return hasParentAllowedBlock;
-  } else if (hasBlockAllowedParent !== null) {
-    return hasBlockAllowedParent;
+  if (!canInsert) {
+    return canInsert;
   }
+  /**
+   * This filter is an ad-hoc solution to prevent adding template parts inside post content.
+   * Conceptually, having a filter inside a selector is bad pattern so this code will be
+   * replaced by a declarative API that doesn't the following drawbacks:
+   *
+   * Filters are not reactive: Upon switching between "template mode" and non "template mode",
+   * the filter and selector won't necessarily be executed again. For now, it doesn't matter much
+   * because you can't switch between the two modes while the inserter stays open.
+   *
+   * Filters are global: Once they're defined, they will affect all editor instances and all registries.
+   * An ideal API would only affect specific editor instances.
+   */
 
-  return true;
+
+  return Object(external_wp_hooks_["applyFilters"])('blockEditor.__unstableCanInsertBlockType', canInsert, blockType, rootClientId, {
+    // Pass bound selectors of the current registry. If we're in a nested
+    // context, the data will differ from the one selected from the root
+    // registry.
+    getBlock: getBlock.bind(null, state),
+    getBlockParentsByBlockName: getBlockParentsByBlockName.bind(null, state)
+  });
 };
 /**
  * Determines if the given block type is allowed to be inserted into the block list.
@@ -22674,38 +22700,38 @@ Object(external_wp_data_["registerStore"])(constants["a" /* STORE_NAME */], { ..
 
 
 const FONT_STYLES = [{
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Regular'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Regular', 'font style'),
   value: 'normal'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Italic'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Italic', 'font style'),
   value: 'italic'
 }];
 const FONT_WEIGHTS = [{
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Thin'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Thin', 'font weight'),
   value: '100'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Extra Light'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Extra Light', 'font weight'),
   value: '200'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Light'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Light', 'font weight'),
   value: '300'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Regular'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Regular', 'font weight'),
   value: '400'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Medium'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Medium', 'font weight'),
   value: '500'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Semi Bold'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Semi Bold', 'font weight'),
   value: '600'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Bold'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Bold', 'font weight'),
   value: '700'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Extra Bold'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Extra Bold', 'font weight'),
   value: '800'
 }, {
-  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["__"])('Black'),
+  name: Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__["_x"])('Black', 'font weight'),
   value: '900'
 }];
 /**
@@ -23172,7 +23198,6 @@ function getGradientSlugByValue(gradients, value) {
 
   return gradient && gradient.slug;
 }
-const EMPTY_OBJECT = {};
 function __experimentalUseGradient() {
   let {
     gradientAttribute = 'gradient',
@@ -23181,8 +23206,10 @@ function __experimentalUseGradient() {
   const {
     clientId
   } = Object(_block_edit__WEBPACK_IMPORTED_MODULE_3__[/* useBlockEditContext */ "c"])();
-  const gradientsPerOrigin = Object(_use_setting__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])('color.gradients') || EMPTY_OBJECT;
-  const allGradients = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(() => [...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.custom) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.theme) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.default) || [])], [gradientsPerOrigin]);
+  const userGradientPalette = Object(_use_setting__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])('color.gradients.custom');
+  const themeGradientPalette = Object(_use_setting__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])('color.gradients.theme');
+  const defaultGradientPalette = Object(_use_setting__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])('color.gradients.default');
+  const allGradients = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(() => [...(userGradientPalette || []), ...(themeGradientPalette || []), ...(defaultGradientPalette || [])], [userGradientPalette, themeGradientPalette, defaultGradientPalette]);
   const {
     gradient,
     customGradient
@@ -25233,6 +25260,31 @@ function useAvailableAlignments() {
 
 /***/ }),
 
+/***/ "K8zD":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GRId");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("Tqx9");
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/**
+ * WordPress dependencies
+ */
+
+const globe = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+  d: "M12 3.3c-4.8 0-8.8 3.9-8.8 8.8 0 4.8 3.9 8.8 8.8 8.8 4.8 0 8.8-3.9 8.8-8.8s-4-8.8-8.8-8.8zm6.5 5.5h-2.6C15.4 7.3 14.8 6 14 5c2 .6 3.6 2 4.5 3.8zm.7 3.2c0 .6-.1 1.2-.2 1.8h-2.9c.1-.6.1-1.2.1-1.8s-.1-1.2-.1-1.8H19c.2.6.2 1.2.2 1.8zM12 18.7c-1-.7-1.8-1.9-2.3-3.5h4.6c-.5 1.6-1.3 2.9-2.3 3.5zm-2.6-4.9c-.1-.6-.1-1.1-.1-1.8 0-.6.1-1.2.1-1.8h5.2c.1.6.1 1.1.1 1.8s-.1 1.2-.1 1.8H9.4zM4.8 12c0-.6.1-1.2.2-1.8h2.9c-.1.6-.1 1.2-.1 1.8 0 .6.1 1.2.1 1.8H5c-.2-.6-.2-1.2-.2-1.8zM12 5.3c1 .7 1.8 1.9 2.3 3.5H9.7c.5-1.6 1.3-2.9 2.3-3.5zM10 5c-.8 1-1.4 2.3-1.8 3.8H5.5C6.4 7 8 5.6 10 5zM5.5 15.3h2.6c.4 1.5 1 2.8 1.8 3.7-1.8-.6-3.5-2-4.4-3.7zM14 19c.8-1 1.4-2.2 1.8-3.7h2.6C17.6 17 16 18.4 14 19z"
+}));
+/* harmony default export */ __webpack_exports__["a"] = (globe);
+
+
+/***/ }),
+
 /***/ "K9lf":
 /***/ (function(module, exports) {
 
@@ -26090,15 +26142,19 @@ const flexWrapOptions = ['wrap', 'nowrap'];
     }));
   },
   save: function FlexLayoutStyle(_ref3) {
+    var _style$spacing$blockG, _style$spacing;
+
     let {
       selector,
-      layout
+      layout,
+      style
     } = _ref3;
     const {
       orientation = 'horizontal'
     } = layout;
     const blockGapSupport = Object(use_setting["a" /* default */])('spacing.blockGap');
     const hasBlockGapStylesSupport = blockGapSupport !== null;
+    const blockGapValue = (_style$spacing$blockG = style === null || style === void 0 ? void 0 : (_style$spacing = style.spacing) === null || _style$spacing === void 0 ? void 0 : _style$spacing.blockGap) !== null && _style$spacing$blockG !== void 0 ? _style$spacing$blockG : 'var( --wp--style--block-gap, 0.5em )';
     const justifyContent = justifyContentMap[layout.justifyContent] || justifyContentMap.left;
     const flexWrap = flexWrapOptions.includes(layout.flexWrap) ? layout.flexWrap : 'wrap';
     const rowOrientation = `
@@ -26114,7 +26170,7 @@ const flexWrapOptions = ['wrap', 'nowrap'];
     return Object(external_wp_element_["createElement"])("style", null, `
 				${appendSelectors(selector)} {
 					display: flex;
-					gap: ${hasBlockGapStylesSupport ? 'var( --wp--style--block-gap, 0.5em )' : '0.5em'};
+					gap: ${hasBlockGapStylesSupport ? blockGapValue : '0.5em'};
 					flex-wrap: ${flexWrap};
 					${orientation === 'horizontal' ? rowOrientation : columnOrientation}
 				}
@@ -26351,9 +26407,12 @@ var stretch_wide = __webpack_require__("beZb");
     return null;
   },
   save: function DefaultLayoutStyle(_ref2) {
+    var _style$spacing$blockG, _style$spacing;
+
     let {
       selector,
-      layout = {}
+      layout = {},
+      style
     } = _ref2;
     const {
       contentSize,
@@ -26361,7 +26420,8 @@ var stretch_wide = __webpack_require__("beZb");
     } = layout;
     const blockGapSupport = Object(use_setting["a" /* default */])('spacing.blockGap');
     const hasBlockGapStylesSupport = blockGapSupport !== null;
-    let style = !!contentSize || !!wideSize ? `
+    const blockGapValue = (_style$spacing$blockG = style === null || style === void 0 ? void 0 : (_style$spacing = style.spacing) === null || _style$spacing === void 0 ? void 0 : _style$spacing.blockGap) !== null && _style$spacing$blockG !== void 0 ? _style$spacing$blockG : 'var( --wp--style--block-gap )';
+    let output = !!contentSize || !!wideSize ? `
 					${appendSelectors(selector, '> *')} {
 						max-width: ${contentSize !== null && contentSize !== void 0 ? contentSize : wideSize};
 						margin-left: auto !important;
@@ -26376,7 +26436,7 @@ var stretch_wide = __webpack_require__("beZb");
 						max-width: none;
 					}
 				` : '';
-    style += `
+    output += `
 			${appendSelectors(selector, '> [data-align="left"]')} {
 				float: left;
 				margin-right: 2em;
@@ -26390,18 +26450,18 @@ var stretch_wide = __webpack_require__("beZb");
 		`;
 
     if (hasBlockGapStylesSupport) {
-      style += `
+      output += `
 				${appendSelectors(selector, '> *')} {
 					margin-top: 0;
 					margin-bottom: 0;
 				}
 				${appendSelectors(selector, '> * + *')} {
-					margin-top: var( --wp--style--block-gap );
+					margin-top: ${blockGapValue};
 				}
 			`;
     }
 
-    return Object(external_wp_element_["createElement"])("style", null, style);
+    return Object(external_wp_element_["createElement"])("style", null, output);
   },
 
   getOrientation() {
@@ -27088,6 +27148,7 @@ var store = __webpack_require__("BhPs");
 
 
 
+
 /**
  * Internal dependencies
  */
@@ -27098,6 +27159,7 @@ var store = __webpack_require__("BhPs");
  // This is used to avoid rendering the block list if the sizes change.
 
 let MemoizedBlockList;
+const MAX_HEIGHT = 2000;
 
 function AutoBlockPreview(_ref) {
   let {
@@ -27112,7 +27174,18 @@ function AutoBlockPreview(_ref) {
   }] = Object(external_wp_compose_["useResizeObserver"])();
   const styles = Object(external_wp_data_["useSelect"])(select => {
     return select(store["a" /* store */]).getSettings().styles;
-  }, []); // Initialize on render instead of module top level, to avoid circular dependency issues.
+  }, []); // Avoid scrollbars for pattern previews.
+
+  const editorStyles = Object(external_wp_element_["useMemo"])(() => {
+    if (styles) {
+      return [...styles, {
+        css: 'body{height:auto;overflow:hidden;}',
+        __unstableType: 'presets'
+      }];
+    }
+
+    return styles;
+  }, [styles]); // Initialize on render instead of module top level, to avoid circular dependency issues.
 
   MemoizedBlockList = MemoizedBlockList || Object(external_wp_compose_["pure"])(block_list["c" /* default */]);
   const scale = containerWidth / viewportWidth;
@@ -27122,11 +27195,12 @@ function AutoBlockPreview(_ref) {
     className: "block-editor-block-preview__content",
     style: {
       transform: `scale(${scale})`,
-      height: contentHeight * scale
+      height: contentHeight * scale,
+      maxHeight: contentHeight > MAX_HEIGHT ? MAX_HEIGHT * scale : undefined
     }
   }, Object(external_wp_element_["createElement"])(iframe["a" /* default */], {
     head: Object(external_wp_element_["createElement"])(editor_styles["a" /* default */], {
-      styles: styles
+      styles: editorStyles
     }),
     contentRef: Object(external_wp_compose_["useRefEffect"])(bodyElement => {
       const {
@@ -27137,7 +27211,9 @@ function AutoBlockPreview(_ref) {
       documentElement.classList.add('block-editor-block-preview__content-iframe');
       documentElement.style.position = 'absolute';
       documentElement.style.width = '100%';
-      bodyElement.style.padding = __experimentalPadding + 'px';
+      bodyElement.style.padding = __experimentalPadding + 'px'; // necessary for contentResizeListener to work.
+
+      bodyElement.style.position = 'relative';
     }, []),
     "aria-hidden": true,
     tabIndex: -1,
@@ -27145,7 +27221,10 @@ function AutoBlockPreview(_ref) {
       position: 'absolute',
       width: viewportWidth,
       height: contentHeight,
-      pointerEvents: 'none'
+      pointerEvents: 'none',
+      // This is a catch-all max-height for patterns.
+      // See: https://github.com/WordPress/gutenberg/pull/38175.
+      maxHeight: MAX_HEIGHT
     }
   }, contentResizeListener, Object(external_wp_element_["createElement"])(MemoizedBlockList, {
     renderAppender: false
@@ -30557,6 +30636,97 @@ const arrowLeft = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["create
 
 /***/ }),
 
+/***/ "dchM":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ColorGradientSettingsDropdown; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("wx14");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("GRId");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("TSYQ");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("tI+e");
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("hMaJ");
+
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+function ColorGradientSettingsDropdown(_ref) {
+  let {
+    colors,
+    gradients,
+    disableCustomColors,
+    disableCustomGradients,
+    __experimentalHasMultipleOrigins,
+    __experimentalIsRenderedInSidebar,
+    enableAlpha,
+    settings
+  } = _ref;
+  let dropdownPosition;
+
+  if (__experimentalIsRenderedInSidebar) {
+    dropdownPosition = 'bottom left';
+  }
+
+  return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["__experimentalItemGroup"], {
+    isBordered: true,
+    isSeparated: true,
+    className: "block-editor-panel-color-gradient-settings__item-group"
+  }, settings.map((setting, index) => Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["Dropdown"], {
+    key: index,
+    position: dropdownPosition,
+    className: "block-editor-panel-color-gradient-settings__dropdown",
+    contentClassName: "block-editor-panel-color-gradient-settings__dropdown-content",
+    renderToggle: _ref2 => {
+      var _setting$gradientValu;
+
+      let {
+        isOpen,
+        onToggle
+      } = _ref2;
+      return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["__experimentalItem"], {
+        onClick: onToggle,
+        className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('block-editor-panel-color-gradient-settings__item', {
+          'is-open': isOpen
+        })
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["__experimentalHStack"], {
+        justify: "flex-start"
+      }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["ColorIndicator"], {
+        className: "block-editor-panel-color-gradient-settings__color-indicator",
+        colorValue: (_setting$gradientValu = setting.gradientValue) !== null && _setting$gradientValu !== void 0 ? _setting$gradientValu : setting.colorValue
+      }), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["FlexItem"], null, setting.label)));
+    },
+    renderContent: () => Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_control__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+      showTitle: false,
+      colors,
+      gradients,
+      disableCustomColors,
+      disableCustomGradients,
+      __experimentalHasMultipleOrigins,
+      __experimentalIsRenderedInSidebar,
+      enableAlpha
+    }, setting))
+  })));
+}
+
+
+/***/ }),
+
 /***/ "dfZa":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -31913,10 +32083,8 @@ function styleSheetsCompat(doc) {
     });
 
     if (isMatch && !doc.getElementById(ownerNode.id)) {
-      // eslint-disable-next-line no-console
-      console.warn(`Stylesheet ${ownerNode.id} was not properly added.
-For blocks, use the block API's style (https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#style) or editorStyle (https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#editor-style).
-For themes, use add_editor_style (https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-support/#editor-styles).`, ownerNode.outerHTML);
+      // Display warning once we have a way to add style dependencies to the editor.
+      // See: https://github.com/WordPress/gutenberg/pull/37466.
       doc.head.appendChild(ownerNode.cloneNode(true)); // Add inline styles belonging to the stylesheet.
 
       const inlineCssId = ownerNode.id.replace('-css', '-inline-css');
@@ -34360,6 +34528,7 @@ const justifyLeft = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["crea
 /* unused harmony export Trail */
 /* unused harmony export Transition */
 /* unused harmony export config */
+/* unused harmony export easings */
 /* unused harmony export inferTo */
 /* unused harmony export interpolate */
 /* unused harmony export to */
@@ -34546,8 +34715,8 @@ function useChain(refs, timeSteps, timeFrame = 1000) {
 
               props.delay = key => delay + callProp(memoizedDelayProp || 0, key);
             });
-            ctrl.start();
           });
+          ref.start();
         }
       });
     } else {
@@ -34597,13 +34766,65 @@ const config = {
     friction: 120
   }
 };
+const c1 = 1.70158;
+const c2 = c1 * 1.525;
+const c3 = c1 + 1;
+const c4 = 2 * Math.PI / 3;
+const c5 = 2 * Math.PI / 4.5;
 
-const linear = t => t;
+const bounceOut = x => {
+  const n1 = 7.5625;
+  const d1 = 2.75;
+
+  if (x < 1 / d1) {
+    return n1 * x * x;
+  } else if (x < 2 / d1) {
+    return n1 * (x -= 1.5 / d1) * x + 0.75;
+  } else if (x < 2.5 / d1) {
+    return n1 * (x -= 2.25 / d1) * x + 0.9375;
+  } else {
+    return n1 * (x -= 2.625 / d1) * x + 0.984375;
+  }
+};
+
+const easings = {
+  linear: x => x,
+  easeInQuad: x => x * x,
+  easeOutQuad: x => 1 - (1 - x) * (1 - x),
+  easeInOutQuad: x => x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2,
+  easeInCubic: x => x * x * x,
+  easeOutCubic: x => 1 - Math.pow(1 - x, 3),
+  easeInOutCubic: x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2,
+  easeInQuart: x => x * x * x * x,
+  easeOutQuart: x => 1 - Math.pow(1 - x, 4),
+  easeInOutQuart: x => x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2,
+  easeInQuint: x => x * x * x * x * x,
+  easeOutQuint: x => 1 - Math.pow(1 - x, 5),
+  easeInOutQuint: x => x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2,
+  easeInSine: x => 1 - Math.cos(x * Math.PI / 2),
+  easeOutSine: x => Math.sin(x * Math.PI / 2),
+  easeInOutSine: x => -(Math.cos(Math.PI * x) - 1) / 2,
+  easeInExpo: x => x === 0 ? 0 : Math.pow(2, 10 * x - 10),
+  easeOutExpo: x => x === 1 ? 1 : 1 - Math.pow(2, -10 * x),
+  easeInOutExpo: x => x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? Math.pow(2, 20 * x - 10) / 2 : (2 - Math.pow(2, -20 * x + 10)) / 2,
+  easeInCirc: x => 1 - Math.sqrt(1 - Math.pow(x, 2)),
+  easeOutCirc: x => Math.sqrt(1 - Math.pow(x - 1, 2)),
+  easeInOutCirc: x => x < 0.5 ? (1 - Math.sqrt(1 - Math.pow(2 * x, 2))) / 2 : (Math.sqrt(1 - Math.pow(-2 * x + 2, 2)) + 1) / 2,
+  easeInBack: x => c3 * x * x * x - c1 * x * x,
+  easeOutBack: x => 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2),
+  easeInOutBack: x => x < 0.5 ? Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2,
+  easeInElastic: x => x === 0 ? 0 : x === 1 ? 1 : -Math.pow(2, 10 * x - 10) * Math.sin((x * 10 - 10.75) * c4),
+  easeOutElastic: x => x === 0 ? 0 : x === 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * c4) + 1,
+  easeInOutElastic: x => x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? -(Math.pow(2, 20 * x - 10) * Math.sin((20 * x - 11.125) * c5)) / 2 : Math.pow(2, -20 * x + 10) * Math.sin((20 * x - 11.125) * c5) / 2 + 1,
+  easeInBounce: x => 1 - bounceOut(1 - x),
+  easeOutBounce: bounceOut,
+  easeInOutBounce: x => x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2
+};
 
 const defaults = _extends({}, config.default, {
   mass: 1,
   damping: 1,
-  easing: linear,
+  easing: easings.linear,
   clamp: false
 });
 
@@ -34738,7 +34959,8 @@ function scheduleProps(callId, {
     }
 
     function onResume() {
-      if (delay > 0) {
+      if (delay > 0 && !_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* Globals */ "b"].skipAnimation) {
+        state.delayed = true;
         timeout = _react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* raf */ "w"].setTimeout(onStart, delay);
         state.pauseQueue.add(onPause);
         state.timeouts.add(timeout);
@@ -34748,6 +34970,10 @@ function scheduleProps(callId, {
     }
 
     function onStart() {
+      if (state.delayed) {
+        state.delayed = false;
+      }
+
       state.pauseQueue.delete(onPause);
       state.timeouts.delete(timeout);
 
@@ -35015,6 +35241,7 @@ class SpringValue extends FrameValue {
     this.defaultProps = {};
     this._state = {
       paused: false,
+      delayed: false,
       pauseQueue: new Set(),
       resumeQueue: new Set(),
       timeouts: new Set()
@@ -35060,6 +35287,10 @@ class SpringValue extends FrameValue {
 
   get isPaused() {
     return isPaused(this);
+  }
+
+  get isDelayed() {
+    return this._state.delayed;
   }
 
   advance(dt) {
@@ -35265,7 +35496,11 @@ class SpringValue extends FrameValue {
       this.queue = [];
     }
 
-    return Promise.all(queue.map(props => this._update(props))).then(results => getCombinedResult(this, results));
+    return Promise.all(queue.map(props => {
+      const up = this._update(props);
+
+      return up;
+    })).then(results => getCombinedResult(this, results));
   }
 
   stop(cancel) {
@@ -35798,7 +36033,9 @@ class Controller {
   }
 
   get idle() {
-    return !this._state.asyncTo && Object.values(this.springs).every(spring => spring.idle);
+    return !this._state.asyncTo && Object.values(this.springs).every(spring => {
+      return spring.idle && !spring.isDelayed && !spring.isPaused;
+    });
   }
 
   get item() {
@@ -36361,21 +36598,30 @@ const initSpringRef = () => SpringRef();
 const useSpringRef = () => Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(initSpringRef)[0];
 
 function useTrail(length, propsArg, deps) {
+  var _passedRef;
+
   const propsFn = _react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* is */ "s"].fun(propsArg) && propsArg;
   if (propsFn && !deps) deps = [];
   let reverse = true;
+  let passedRef = undefined;
   const result = useSprings(length, (i, ctrl) => {
     const props = propsFn ? propsFn(i, ctrl) : propsArg;
+    passedRef = props.ref;
     reverse = reverse && props.reverse;
     return props;
   }, deps || [{}]);
-  const ref = result[1];
+  const ref = (_passedRef = passedRef) != null ? _passedRef : result[1];
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useLayoutEffect */ "A"])(() => {
     Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(ref.current, (ctrl, i) => {
       const parent = ref.current[i + (reverse ? 1 : -1)];
-      if (parent) ctrl.start({
-        to: parent.springs
-      });
+
+      if (parent) {
+        ctrl.start({
+          to: parent.springs
+        });
+      } else {
+        ctrl.start();
+      }
     });
   }, deps);
 
@@ -36392,6 +36638,23 @@ function useTrail(length, propsArg, deps) {
 
     return result;
   }
+
+  ref['start'] = propsArg => {
+    const results = [];
+    Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(ref.current, (ctrl, i) => {
+      const props = _react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* is */ "s"].fun(propsArg) ? propsArg(i, ctrl) : propsArg;
+      const parent = ref.current[i + (reverse ? 1 : -1)];
+
+      if (parent) {
+        results.push(ctrl.start(_extends({}, props, {
+          to: parent.springs
+        })));
+      } else {
+        results.push(ctrl.start(_extends({}, props)));
+      }
+    });
+    return results;
+  };
 
   return result[0];
 }
@@ -36412,6 +36675,7 @@ function useTransition(data, props, deps) {
     sort,
     trail = 0,
     expires = true,
+    exitBeforeEnter = false,
     onDestroyed,
     ref: propsRef,
     config: propsConfig
@@ -36424,14 +36688,16 @@ function useTransition(data, props, deps) {
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useLayoutEffect */ "A"])(() => {
     usedTransitions.current = transitions;
   });
-  Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useOnce */ "C"])(() => () => Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(usedTransitions.current, t => {
-    if (t.expired) {
-      clearTimeout(t.expirationId);
-    }
+  Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useOnce */ "C"])(() => () => {
+    Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(usedTransitions.current, t => {
+      if (t.expired) {
+        clearTimeout(t.expirationId);
+      }
 
-    detachRefs(t.ctrl, ref);
-    t.ctrl.stop(true);
-  }));
+      detachRefs(t.ctrl, ref);
+      t.ctrl.stop(true);
+    });
+  });
   const keys = getKeys(items, propsFn ? propsFn() : props, prevTransitions);
   const expired = reset && usedTransitions.current || [];
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useLayoutEffect */ "A"])(() => Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(expired, ({
@@ -36491,6 +36757,8 @@ function useTransition(data, props, deps) {
   const forceUpdate = Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useForceUpdate */ "z"])();
   const defaultProps = getDefaultProps(props);
   const changes = new Map();
+  const exitingTransitions = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])(new Map());
+  const forceChange = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])(false);
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(transitions, (t, i) => {
     const key = t.key;
     const prevPhase = t.phase;
@@ -36576,30 +36844,53 @@ function useTransition(data, props, deps) {
         }
 
         if (idle && transitions.some(t => t.expired)) {
+          exitingTransitions.current.delete(t);
+
+          if (exitBeforeEnter) {
+            forceChange.current = true;
+          }
+
           forceUpdate();
         }
       }
     };
 
     const springs = getSprings(t.ctrl, payload);
-    changes.set(t, {
-      phase,
-      springs,
-      payload
-    });
+
+    if (phase === TransitionPhase.LEAVE && exitBeforeEnter) {
+      exitingTransitions.current.set(t, {
+        phase,
+        springs,
+        payload
+      });
+    } else {
+      changes.set(t, {
+        phase,
+        springs,
+        payload
+      });
+    }
   });
   const context = Object(react__WEBPACK_IMPORTED_MODULE_1__["useContext"])(SpringContext);
   const prevContext = Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* usePrev */ "D"])(context);
   const hasContext = context !== prevContext && hasProps(context);
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useLayoutEffect */ "A"])(() => {
-    if (hasContext) Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(transitions, t => {
-      t.ctrl.start({
-        default: context
+    if (hasContext) {
+      Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(transitions, t => {
+        t.ctrl.start({
+          default: context
+        });
       });
-    });
+    }
   }, [context]);
+  Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(changes, (_, t) => {
+    if (exitingTransitions.current.size) {
+      const ind = transitions.findIndex(state => state.key === t.key);
+      transitions.splice(ind, 1);
+    }
+  });
   Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* useLayoutEffect */ "A"])(() => {
-    Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(changes, ({
+    Object(_react_spring_shared__WEBPACK_IMPORTED_MODULE_0__[/* each */ "k"])(exitingTransitions.current.size ? exitingTransitions.current : changes, ({
       phase,
       payload
     }, t) => {
@@ -36618,10 +36909,14 @@ function useTransition(data, props, deps) {
       if (payload) {
         replaceRef(ctrl, payload.ref);
 
-        if (ctrl.ref) {
+        if (ctrl.ref && !forceChange.current) {
           ctrl.update(payload);
         } else {
           ctrl.start(payload);
+
+          if (forceChange.current) {
+            forceChange.current = false;
+          }
         }
       }
     });
@@ -36992,6 +37287,7 @@ const SETTINGS_DEFAULTS = {
   __experimentalBlockPatterns: [],
   __experimentalBlockPatternCategories: [],
   __experimentalSpotlightEntityBlocks: [],
+  __experimentalGenerateAnchors: false,
   __unstableGalleryWithImageBlocks: false,
   // gradients setting is not used anymore now defaults are passed from theme.json on the server and core has its own defaults.
   // The setting is only kept for backward compatibility purposes.
@@ -37143,7 +37439,7 @@ __webpack_require__.d(__webpack_exports__, "B", function() { return /* binding *
 __webpack_require__.d(__webpack_exports__, "C", function() { return /* binding */ useOnce; });
 __webpack_require__.d(__webpack_exports__, "D", function() { return /* binding */ usePrev; });
 
-// UNUSED EXPORTS: callFluidObserver, colorToRgba, hex3, hex4, hex6, hex8, hsl, hsla, rgb, rgba, setFluidGetter
+// UNUSED EXPORTS: callFluidObserver, colorToRgba, hex3, hex4, hex6, hex8, hsl, hsla, isSSR, rgb, rgba, setFluidGetter
 
 // CONCATENATED MODULE: ./node_modules/@react-spring/rafz/dist/react-spring-rafz.esm.js
 let updateQueue = makeQueue();
@@ -37172,7 +37468,7 @@ raf.setTimeout = (handler, ms) => {
   let cancel = () => {
     let i = timeouts.findIndex(t => t.cancel == cancel);
     if (~i) timeouts.splice(i, 1);
-    __raf.count -= ~i ? 1 : 0;
+    pendingCount -= ~i ? 1 : 0;
   };
 
   let timeout = {
@@ -37181,7 +37477,7 @@ raf.setTimeout = (handler, ms) => {
     cancel
   };
   timeouts.splice(findTimeout(time), 0, timeout);
-  __raf.count += 1;
+  pendingCount += 1;
   start();
   return timeout;
 };
@@ -37189,8 +37485,11 @@ raf.setTimeout = (handler, ms) => {
 let findTimeout = time => ~(~timeouts.findIndex(t => t.time > time) || ~timeouts.length);
 
 raf.cancel = fn => {
+  onStartQueue.delete(fn);
+  onFrameQueue.delete(fn);
   updateQueue.delete(fn);
   writeQueue.delete(fn);
+  onFinishQueue.delete(fn);
 };
 
 raf.sync = fn => {
@@ -37245,6 +37544,7 @@ raf.advance = () => {
 };
 
 let ts = -1;
+let pendingCount = 0;
 let sync = false;
 
 function schedule(fn, queue) {
@@ -37267,6 +37567,10 @@ function start() {
   }
 }
 
+function stop() {
+  ts = -1;
+}
+
 function loop() {
   if (~ts) {
     nativeRaf(loop);
@@ -37281,7 +37585,7 @@ function react_spring_rafz_esm_update() {
 
   if (count) {
     eachSafely(timeouts.splice(0, count), t => t.handler());
-    __raf.count -= count;
+    pendingCount -= count;
   }
 
   onStartQueue.flush();
@@ -37289,6 +37593,10 @@ function react_spring_rafz_esm_update() {
   onFrameQueue.flush();
   writeQueue.flush();
   onFinishQueue.flush();
+
+  if (!pendingCount) {
+    stop();
+  }
 }
 
 function makeQueue() {
@@ -37296,21 +37604,21 @@ function makeQueue() {
   let current = next;
   return {
     add(fn) {
-      __raf.count += current == next && !next.has(fn) ? 1 : 0;
+      pendingCount += current == next && !next.has(fn) ? 1 : 0;
       next.add(fn);
     },
 
     delete(fn) {
-      __raf.count -= current == next && next.has(fn) ? 1 : 0;
+      pendingCount -= current == next && next.has(fn) ? 1 : 0;
       return next.delete(fn);
     },
 
     flush(arg) {
       if (current.size) {
         next = new Set();
-        __raf.count -= current.size;
+        pendingCount -= current.size;
         eachSafely(current, fn => fn(arg) && next.add(fn));
-        __raf.count += next.size;
+        pendingCount += next.size;
         current = next;
       }
     }
@@ -37329,7 +37637,13 @@ function eachSafely(values, each) {
 }
 
 const __raf = {
-  count: 0,
+  count() {
+    return pendingCount;
+  },
+
+  isRunning() {
+    return ts >= 0;
+  },
 
   clear() {
     ts = -1;
@@ -37339,7 +37653,7 @@ const __raf = {
     onFrameQueue = makeQueue();
     writeQueue = makeQueue();
     onFinishQueue = makeQueue();
-    __raf.count = 0;
+    pendingCount = 0;
   }
 
 };
@@ -37407,6 +37721,7 @@ function flush(queue, iterator) {
   }
 }
 const flushCalls = (queue, ...args) => flush(queue, fn => fn(...args));
+const isSSR = () => typeof window === 'undefined' || !window.navigator || /ServerSideRendering|^Deno\//.test(window.navigator.userAgent);
 
 let createStringInterpolator$1;
 let to;
@@ -37949,14 +38264,53 @@ const setHidden = (target, key, value) => Object.defineProperty(target, key, {
 const numberRegex = /[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?/g;
 const colorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/gi;
 const unitRegex = new RegExp(`(${numberRegex.source})(%|[a-z]+)`, 'i');
-let namedColorRegex;
 const rgbaRegex = /rgba\(([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+)\)/gi;
+const cssVariableRegex = /var\((--[a-zA-Z0-9-_]+),? ?([a-zA-Z0-9 ()%#.,-]+)?\)/;
+
+const variableToRgba = input => {
+  const [token, fallback] = parseCSSVariable(input);
+
+  if (!token || isSSR()) {
+    return input;
+  }
+
+  const value = window.getComputedStyle(document.documentElement).getPropertyValue(token);
+
+  if (value) {
+    return value.trim();
+  } else if (fallback && fallback.startsWith('--')) {
+    const _value = window.getComputedStyle(document.documentElement).getPropertyValue(fallback);
+
+    if (_value) {
+      return _value;
+    } else {
+      return input;
+    }
+  } else if (fallback && cssVariableRegex.test(fallback)) {
+    return variableToRgba(fallback);
+  } else if (fallback) {
+    return fallback;
+  }
+
+  return input;
+};
+
+const parseCSSVariable = current => {
+  const match = cssVariableRegex.exec(current);
+  if (!match) return [,];
+  const [, token, fallback] = match;
+  return [token, fallback];
+};
+
+let namedColorRegex;
 
 const rgbaRound = (_, p1, p2, p3, p4) => `rgba(${Math.round(p1)}, ${Math.round(p2)}, ${Math.round(p3)}, ${p4})`;
 
 const createStringInterpolator = config => {
   if (!namedColorRegex) namedColorRegex = colors$1 ? new RegExp(`(${Object.keys(colors$1).join('|')})(?!\\w)`, 'g') : /^\b$/;
-  const output = config.output.map(value => getFluidValue(value).replace(colorRegex, colorToRgba).replace(namedColorRegex, colorToRgba));
+  const output = config.output.map(value => {
+    return getFluidValue(value).replace(cssVariableRegex, variableToRgba).replace(colorRegex, colorToRgba).replace(namedColorRegex, colorToRgba);
+  });
   const keyframes = output.map(value => value.match(numberRegex).map(Number));
   const outputRanges = keyframes[0].map((_, i) => keyframes.map(values => {
     if (!(i in values)) {
@@ -38005,7 +38359,7 @@ function deprecateDirectCall() {
 }
 
 function isAnimatedString(value) {
-  return is.str(value) && (value[0] == '#' || /\d/.test(value) || value in (colors$1 || {}));
+  return is.str(value) && (value[0] == '#' || /\d/.test(value) || !isSSR() && cssVariableRegex.test(value) || value in (colors$1 || {}));
 }
 
 const useOnce = effect => Object(external_React_["useEffect"])(effect, emptyDeps);
@@ -40844,21 +41198,21 @@ __webpack_require__.d(__webpack_exports__, "__experimentalUseColorProps", functi
 __webpack_require__.d(__webpack_exports__, "__experimentalUseCustomSides", function() { return /* reexport */ useCustomSides; });
 __webpack_require__.d(__webpack_exports__, "__experimentalGetSpacingClassesAndStyles", function() { return /* reexport */ getSpacingClassesAndStyles; });
 __webpack_require__.d(__webpack_exports__, "useCachedTruthy", function() { return /* reexport */ useCachedTruthy; });
-__webpack_require__.d(__webpack_exports__, "getColorClassName", function() { return /* reexport */ components["hc" /* getColorClassName */]; });
-__webpack_require__.d(__webpack_exports__, "getColorObjectByAttributeValues", function() { return /* reexport */ components["ic" /* getColorObjectByAttributeValues */]; });
-__webpack_require__.d(__webpack_exports__, "getColorObjectByColorValue", function() { return /* reexport */ components["jc" /* getColorObjectByColorValue */]; });
-__webpack_require__.d(__webpack_exports__, "createCustomColorsHOC", function() { return /* reexport */ components["gc" /* createCustomColorsHOC */]; });
-__webpack_require__.d(__webpack_exports__, "withColors", function() { return /* reexport */ components["vc" /* withColors */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalGetGradientClass", function() { return /* reexport */ components["xb" /* __experimentalGetGradientClass */]; });
-__webpack_require__.d(__webpack_exports__, "getGradientValueBySlug", function() { return /* reexport */ components["oc" /* getGradientValueBySlug */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalGetGradientObjectByGradientValue", function() { return /* reexport */ components["yb" /* __experimentalGetGradientObjectByGradientValue */]; });
-__webpack_require__.d(__webpack_exports__, "getGradientSlugByValue", function() { return /* reexport */ components["nc" /* getGradientSlugByValue */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalUseGradient", function() { return /* reexport */ components["Sb" /* __experimentalUseGradient */]; });
-__webpack_require__.d(__webpack_exports__, "getFontSize", function() { return /* reexport */ components["kc" /* getFontSize */]; });
-__webpack_require__.d(__webpack_exports__, "getFontSizeClass", function() { return /* reexport */ components["lc" /* getFontSizeClass */]; });
-__webpack_require__.d(__webpack_exports__, "getFontSizeObjectByValue", function() { return /* reexport */ components["mc" /* getFontSizeObjectByValue */]; });
+__webpack_require__.d(__webpack_exports__, "getColorClassName", function() { return /* reexport */ components["ic" /* getColorClassName */]; });
+__webpack_require__.d(__webpack_exports__, "getColorObjectByAttributeValues", function() { return /* reexport */ components["jc" /* getColorObjectByAttributeValues */]; });
+__webpack_require__.d(__webpack_exports__, "getColorObjectByColorValue", function() { return /* reexport */ components["kc" /* getColorObjectByColorValue */]; });
+__webpack_require__.d(__webpack_exports__, "createCustomColorsHOC", function() { return /* reexport */ components["hc" /* createCustomColorsHOC */]; });
+__webpack_require__.d(__webpack_exports__, "withColors", function() { return /* reexport */ components["wc" /* withColors */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalGetGradientClass", function() { return /* reexport */ components["yb" /* __experimentalGetGradientClass */]; });
+__webpack_require__.d(__webpack_exports__, "getGradientValueBySlug", function() { return /* reexport */ components["pc" /* getGradientValueBySlug */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalGetGradientObjectByGradientValue", function() { return /* reexport */ components["zb" /* __experimentalGetGradientObjectByGradientValue */]; });
+__webpack_require__.d(__webpack_exports__, "getGradientSlugByValue", function() { return /* reexport */ components["oc" /* getGradientSlugByValue */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalUseGradient", function() { return /* reexport */ components["Tb" /* __experimentalUseGradient */]; });
+__webpack_require__.d(__webpack_exports__, "getFontSize", function() { return /* reexport */ components["lc" /* getFontSize */]; });
+__webpack_require__.d(__webpack_exports__, "getFontSizeClass", function() { return /* reexport */ components["mc" /* getFontSizeClass */]; });
+__webpack_require__.d(__webpack_exports__, "getFontSizeObjectByValue", function() { return /* reexport */ components["nc" /* getFontSizeObjectByValue */]; });
 __webpack_require__.d(__webpack_exports__, "FontSizePicker", function() { return /* reexport */ components["I" /* FontSizePicker */]; });
-__webpack_require__.d(__webpack_exports__, "withFontSizes", function() { return /* reexport */ components["wc" /* withFontSizes */]; });
+__webpack_require__.d(__webpack_exports__, "withFontSizes", function() { return /* reexport */ components["xc" /* withFontSizes */]; });
 __webpack_require__.d(__webpack_exports__, "AlignmentControl", function() { return /* reexport */ components["a" /* AlignmentControl */]; });
 __webpack_require__.d(__webpack_exports__, "AlignmentToolbar", function() { return /* reexport */ components["b" /* AlignmentToolbar */]; });
 __webpack_require__.d(__webpack_exports__, "Autocomplete", function() { return /* reexport */ components["c" /* Autocomplete */]; });
@@ -40873,7 +41227,7 @@ __webpack_require__.d(__webpack_exports__, "BlockControls", function() { return 
 __webpack_require__.d(__webpack_exports__, "BlockFormatControls", function() { return /* reexport */ components["m" /* BlockFormatControls */]; });
 __webpack_require__.d(__webpack_exports__, "BlockColorsStyleSelector", function() { return /* reexport */ components["g" /* BlockColorsStyleSelector */]; });
 __webpack_require__.d(__webpack_exports__, "BlockEdit", function() { return /* reexport */ components["j" /* BlockEdit */]; });
-__webpack_require__.d(__webpack_exports__, "useBlockEditContext", function() { return /* reexport */ components["qc" /* useBlockEditContext */]; });
+__webpack_require__.d(__webpack_exports__, "useBlockEditContext", function() { return /* reexport */ components["rc" /* useBlockEditContext */]; });
 __webpack_require__.d(__webpack_exports__, "BlockIcon", function() { return /* reexport */ components["n" /* BlockIcon */]; });
 __webpack_require__.d(__webpack_exports__, "BlockNavigationDropdown", function() { return /* reexport */ components["r" /* BlockNavigationDropdown */]; });
 __webpack_require__.d(__webpack_exports__, "__experimentalBlockVariationPicker", function() { return /* reexport */ components["pb" /* __experimentalBlockVariationPicker */]; });
@@ -40888,89 +41242,90 @@ __webpack_require__.d(__webpack_exports__, "ButtonBlockAppender", function() { r
 __webpack_require__.d(__webpack_exports__, "ColorPalette", function() { return /* reexport */ components["D" /* ColorPalette */]; });
 __webpack_require__.d(__webpack_exports__, "ColorPaletteControl", function() { return /* reexport */ components["E" /* ColorPaletteControl */]; });
 __webpack_require__.d(__webpack_exports__, "ContrastChecker", function() { return /* reexport */ components["F" /* ContrastChecker */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalDuotoneControl", function() { return /* reexport */ components["ub" /* __experimentalDuotoneControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalFontAppearanceControl", function() { return /* reexport */ components["vb" /* __experimentalFontAppearanceControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalFontFamilyControl", function() { return /* reexport */ components["wb" /* __experimentalFontFamilyControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLetterSpacingControl", function() { return /* reexport */ components["Eb" /* __experimentalLetterSpacingControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalTextDecorationControl", function() { return /* reexport */ components["Ob" /* __experimentalTextDecorationControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalTextTransformControl", function() { return /* reexport */ components["Pb" /* __experimentalTextTransformControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalDuotoneControl", function() { return /* reexport */ components["vb" /* __experimentalDuotoneControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalFontAppearanceControl", function() { return /* reexport */ components["wb" /* __experimentalFontAppearanceControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalFontFamilyControl", function() { return /* reexport */ components["xb" /* __experimentalFontFamilyControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLetterSpacingControl", function() { return /* reexport */ components["Fb" /* __experimentalLetterSpacingControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalTextDecorationControl", function() { return /* reexport */ components["Pb" /* __experimentalTextDecorationControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalTextTransformControl", function() { return /* reexport */ components["Qb" /* __experimentalTextTransformControl */]; });
 __webpack_require__.d(__webpack_exports__, "__experimentalColorGradientControl", function() { return /* reexport */ components["tb" /* __experimentalColorGradientControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalPanelColorGradientSettings", function() { return /* reexport */ components["Lb" /* __experimentalPanelColorGradientSettings */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalImageEditor", function() { return /* reexport */ components["Ab" /* __experimentalImageEditor */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalImageEditingProvider", function() { return /* reexport */ components["zb" /* __experimentalImageEditingProvider */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalImageSizeControl", function() { return /* reexport */ components["Bb" /* __experimentalImageSizeControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalColorGradientSettingsDropdown", function() { return /* reexport */ components["ub" /* __experimentalColorGradientSettingsDropdown */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalPanelColorGradientSettings", function() { return /* reexport */ components["Mb" /* __experimentalPanelColorGradientSettings */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalImageEditor", function() { return /* reexport */ components["Bb" /* __experimentalImageEditor */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalImageEditingProvider", function() { return /* reexport */ components["Ab" /* __experimentalImageEditingProvider */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalImageSizeControl", function() { return /* reexport */ components["Cb" /* __experimentalImageSizeControl */]; });
 __webpack_require__.d(__webpack_exports__, "InnerBlocks", function() { return /* reexport */ components["J" /* InnerBlocks */]; });
-__webpack_require__.d(__webpack_exports__, "useInnerBlocksProps", function() { return /* reexport */ components["sc" /* useInnerBlocksProps */]; });
+__webpack_require__.d(__webpack_exports__, "useInnerBlocksProps", function() { return /* reexport */ components["tc" /* useInnerBlocksProps */]; });
 __webpack_require__.d(__webpack_exports__, "InspectorControls", function() { return /* reexport */ components["M" /* InspectorControls */]; });
 __webpack_require__.d(__webpack_exports__, "InspectorAdvancedControls", function() { return /* reexport */ components["L" /* InspectorAdvancedControls */]; });
 __webpack_require__.d(__webpack_exports__, "JustifyToolbar", function() { return /* reexport */ components["O" /* JustifyToolbar */]; });
 __webpack_require__.d(__webpack_exports__, "JustifyContentControl", function() { return /* reexport */ components["N" /* JustifyContentControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLinkControl", function() { return /* reexport */ components["Gb" /* __experimentalLinkControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchInput", function() { return /* reexport */ components["Hb" /* __experimentalLinkControlSearchInput */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchResults", function() { return /* reexport */ components["Jb" /* __experimentalLinkControlSearchResults */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchItem", function() { return /* reexport */ components["Ib" /* __experimentalLinkControlSearchItem */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLinkControl", function() { return /* reexport */ components["Hb" /* __experimentalLinkControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchInput", function() { return /* reexport */ components["Ib" /* __experimentalLinkControlSearchInput */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchResults", function() { return /* reexport */ components["Kb" /* __experimentalLinkControlSearchResults */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLinkControlSearchItem", function() { return /* reexport */ components["Jb" /* __experimentalLinkControlSearchItem */]; });
 __webpack_require__.d(__webpack_exports__, "LineHeightControl", function() { return /* reexport */ components["P" /* LineHeightControl */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalListView", function() { return /* reexport */ components["Kb" /* __experimentalListView */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalListView", function() { return /* reexport */ components["Lb" /* __experimentalListView */]; });
 __webpack_require__.d(__webpack_exports__, "MediaReplaceFlow", function() { return /* reexport */ components["R" /* MediaReplaceFlow */]; });
 __webpack_require__.d(__webpack_exports__, "MediaPlaceholder", function() { return /* reexport */ components["Q" /* MediaPlaceholder */]; });
 __webpack_require__.d(__webpack_exports__, "MediaUpload", function() { return /* reexport */ components["S" /* MediaUpload */]; });
 __webpack_require__.d(__webpack_exports__, "MediaUploadCheck", function() { return /* reexport */ components["T" /* MediaUploadCheck */]; });
 __webpack_require__.d(__webpack_exports__, "PanelColorSettings", function() { return /* reexport */ components["X" /* PanelColorSettings */]; });
 __webpack_require__.d(__webpack_exports__, "PlainText", function() { return /* reexport */ components["Y" /* PlainText */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalResponsiveBlockControl", function() { return /* reexport */ components["Nb" /* __experimentalResponsiveBlockControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalResponsiveBlockControl", function() { return /* reexport */ components["Ob" /* __experimentalResponsiveBlockControl */]; });
 __webpack_require__.d(__webpack_exports__, "RichText", function() { return /* reexport */ components["ab" /* RichText */]; });
 __webpack_require__.d(__webpack_exports__, "RichTextShortcut", function() { return /* reexport */ components["bb" /* RichTextShortcut */]; });
 __webpack_require__.d(__webpack_exports__, "RichTextToolbarButton", function() { return /* reexport */ components["cb" /* RichTextToolbarButton */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableRichTextInputEvent", function() { return /* reexport */ components["Zb" /* __unstableRichTextInputEvent */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableRichTextInputEvent", function() { return /* reexport */ components["ac" /* __unstableRichTextInputEvent */]; });
 __webpack_require__.d(__webpack_exports__, "ToolSelector", function() { return /* reexport */ components["eb" /* ToolSelector */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalUnitControl", function() { return /* reexport */ components["Qb" /* __experimentalUnitControl */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalUnitControl", function() { return /* reexport */ components["Rb" /* __experimentalUnitControl */]; });
 __webpack_require__.d(__webpack_exports__, "URLInput", function() { return /* reexport */ components["gb" /* URLInput */]; });
 __webpack_require__.d(__webpack_exports__, "URLInputButton", function() { return /* reexport */ components["hb" /* URLInputButton */]; });
 __webpack_require__.d(__webpack_exports__, "URLPopover", function() { return /* reexport */ components["ib" /* URLPopover */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalImageURLInputUI", function() { return /* reexport */ components["Cb" /* __experimentalImageURLInputUI */]; });
-__webpack_require__.d(__webpack_exports__, "withColorContext", function() { return /* reexport */ components["uc" /* withColorContext */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableBlockSettingsMenuFirstItem", function() { return /* reexport */ components["Vb" /* __unstableBlockSettingsMenuFirstItem */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableInserterMenuExtension", function() { return /* reexport */ components["Yb" /* __unstableInserterMenuExtension */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalPreviewOptions", function() { return /* reexport */ components["Mb" /* __experimentalPreviewOptions */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalUseResizeCanvas", function() { return /* reexport */ components["Ub" /* __experimentalUseResizeCanvas */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalImageURLInputUI", function() { return /* reexport */ components["Db" /* __experimentalImageURLInputUI */]; });
+__webpack_require__.d(__webpack_exports__, "withColorContext", function() { return /* reexport */ components["vc" /* withColorContext */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableBlockSettingsMenuFirstItem", function() { return /* reexport */ components["Wb" /* __unstableBlockSettingsMenuFirstItem */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableInserterMenuExtension", function() { return /* reexport */ components["Zb" /* __unstableInserterMenuExtension */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalPreviewOptions", function() { return /* reexport */ components["Nb" /* __experimentalPreviewOptions */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalUseResizeCanvas", function() { return /* reexport */ components["Vb" /* __experimentalUseResizeCanvas */]; });
 __webpack_require__.d(__webpack_exports__, "BlockInspector", function() { return /* reexport */ components["o" /* BlockInspector */]; });
 __webpack_require__.d(__webpack_exports__, "BlockList", function() { return /* reexport */ components["p" /* BlockList */]; });
-__webpack_require__.d(__webpack_exports__, "useBlockProps", function() { return /* reexport */ components["rc" /* useBlockProps */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLayoutStyle", function() { return /* reexport */ components["Db" /* __experimentalLayoutStyle */]; });
+__webpack_require__.d(__webpack_exports__, "useBlockProps", function() { return /* reexport */ components["sc" /* useBlockProps */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLayoutStyle", function() { return /* reexport */ components["Eb" /* __experimentalLayoutStyle */]; });
 __webpack_require__.d(__webpack_exports__, "BlockMover", function() { return /* reexport */ components["q" /* BlockMover */]; });
 __webpack_require__.d(__webpack_exports__, "BlockPreview", function() { return /* reexport */ components["s" /* BlockPreview */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalUseBlockPreview", function() { return /* reexport */ components["Rb" /* __experimentalUseBlockPreview */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalUseBlockPreview", function() { return /* reexport */ components["Sb" /* __experimentalUseBlockPreview */]; });
 __webpack_require__.d(__webpack_exports__, "BlockSelectionClearer", function() { return /* reexport */ components["t" /* BlockSelectionClearer */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseBlockSelectionClearer", function() { return /* reexport */ components["ac" /* __unstableUseBlockSelectionClearer */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseBlockSelectionClearer", function() { return /* reexport */ components["bc" /* __unstableUseBlockSelectionClearer */]; });
 __webpack_require__.d(__webpack_exports__, "BlockSettingsMenu", function() { return /* reexport */ components["u" /* BlockSettingsMenu */]; });
 __webpack_require__.d(__webpack_exports__, "BlockSettingsMenuControls", function() { return /* reexport */ components["v" /* BlockSettingsMenuControls */]; });
 __webpack_require__.d(__webpack_exports__, "BlockTitle", function() { return /* reexport */ components["w" /* BlockTitle */]; });
 __webpack_require__.d(__webpack_exports__, "BlockToolbar", function() { return /* reexport */ components["x" /* BlockToolbar */]; });
 __webpack_require__.d(__webpack_exports__, "BlockTools", function() { return /* reexport */ components["y" /* BlockTools */]; });
 __webpack_require__.d(__webpack_exports__, "CopyHandler", function() { return /* reexport */ components["G" /* CopyHandler */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseClipboardHandler", function() { return /* reexport */ components["cc" /* __unstableUseClipboardHandler */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseClipboardHandler", function() { return /* reexport */ components["dc" /* __unstableUseClipboardHandler */]; });
 __webpack_require__.d(__webpack_exports__, "DefaultBlockAppender", function() { return /* reexport */ components["H" /* DefaultBlockAppender */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableEditorStyles", function() { return /* reexport */ components["Wb" /* __unstableEditorStyles */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableEditorStyles", function() { return /* reexport */ components["Xb" /* __unstableEditorStyles */]; });
 __webpack_require__.d(__webpack_exports__, "Inserter", function() { return /* reexport */ components["K" /* Inserter */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalLibrary", function() { return /* reexport */ components["Fb" /* __experimentalLibrary */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalLibrary", function() { return /* reexport */ components["Gb" /* __experimentalLibrary */]; });
 __webpack_require__.d(__webpack_exports__, "BlockEditorKeyboardShortcuts", function() { return /* reexport */ components["k" /* BlockEditorKeyboardShortcuts */]; });
 __webpack_require__.d(__webpack_exports__, "MultiSelectScrollIntoView", function() { return /* reexport */ components["U" /* MultiSelectScrollIntoView */]; });
 __webpack_require__.d(__webpack_exports__, "NavigableToolbar", function() { return /* reexport */ components["V" /* NavigableToolbar */]; });
 __webpack_require__.d(__webpack_exports__, "ObserveTyping", function() { return /* reexport */ components["W" /* ObserveTyping */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseTypingObserver", function() { return /* reexport */ components["fc" /* __unstableUseTypingObserver */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseMouseMoveTypingReset", function() { return /* reexport */ components["dc" /* __unstableUseMouseMoveTypingReset */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseTypingObserver", function() { return /* reexport */ components["gc" /* __unstableUseTypingObserver */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseMouseMoveTypingReset", function() { return /* reexport */ components["ec" /* __unstableUseMouseMoveTypingReset */]; });
 __webpack_require__.d(__webpack_exports__, "PreserveScrollInReorder", function() { return /* reexport */ components["Z" /* PreserveScrollInReorder */]; });
 __webpack_require__.d(__webpack_exports__, "SkipToSelectedBlock", function() { return /* reexport */ components["db" /* SkipToSelectedBlock */]; });
 __webpack_require__.d(__webpack_exports__, "Typewriter", function() { return /* reexport */ components["fb" /* Typewriter */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseTypewriter", function() { return /* reexport */ components["ec" /* __unstableUseTypewriter */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseTypewriter", function() { return /* reexport */ components["fc" /* __unstableUseTypewriter */]; });
 __webpack_require__.d(__webpack_exports__, "Warning", function() { return /* reexport */ components["jb" /* Warning */]; });
 __webpack_require__.d(__webpack_exports__, "WritingFlow", function() { return /* reexport */ components["kb" /* WritingFlow */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableUseCanvasClickRedirect", function() { return /* reexport */ components["bc" /* __unstableUseCanvasClickRedirect */]; });
-__webpack_require__.d(__webpack_exports__, "useBlockDisplayInformation", function() { return /* reexport */ components["pc" /* useBlockDisplayInformation */]; });
-__webpack_require__.d(__webpack_exports__, "__unstableIframe", function() { return /* reexport */ components["Xb" /* __unstableIframe */]; });
-__webpack_require__.d(__webpack_exports__, "__experimentalUseNoRecursiveRenders", function() { return /* reexport */ components["Tb" /* __experimentalUseNoRecursiveRenders */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableUseCanvasClickRedirect", function() { return /* reexport */ components["cc" /* __unstableUseCanvasClickRedirect */]; });
+__webpack_require__.d(__webpack_exports__, "useBlockDisplayInformation", function() { return /* reexport */ components["qc" /* useBlockDisplayInformation */]; });
+__webpack_require__.d(__webpack_exports__, "__unstableIframe", function() { return /* reexport */ components["Yb" /* __unstableIframe */]; });
+__webpack_require__.d(__webpack_exports__, "__experimentalUseNoRecursiveRenders", function() { return /* reexport */ components["Ub" /* __experimentalUseNoRecursiveRenders */]; });
 __webpack_require__.d(__webpack_exports__, "BlockEditorProvider", function() { return /* reexport */ components["l" /* BlockEditorProvider */]; });
-__webpack_require__.d(__webpack_exports__, "useSetting", function() { return /* reexport */ components["tc" /* useSetting */]; });
+__webpack_require__.d(__webpack_exports__, "useSetting", function() { return /* reexport */ components["uc" /* useSetting */]; });
 __webpack_require__.d(__webpack_exports__, "transformStyles", function() { return /* reexport */ build_module_utils["c" /* transformStyles */]; });
 __webpack_require__.d(__webpack_exports__, "validateThemeColors", function() { return /* reexport */ build_module_utils["d" /* validateThemeColors */]; });
 __webpack_require__.d(__webpack_exports__, "validateThemeGradients", function() { return /* reexport */ build_module_utils["e" /* validateThemeGradients */]; });
@@ -41562,8 +41917,8 @@ var block_list = __webpack_require__("VyCT");
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/use-setting/index.js
 var use_setting = __webpack_require__("v5LD");
 
-// EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors-gradients/control.js
-var control = __webpack_require__("hMaJ");
+// EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors-gradients/dropdown.js
+var dropdown = __webpack_require__("dchM");
 
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/colors-gradients/use-multiple-origin-colors-and-gradients.js
 var use_multiple_origin_colors_and_gradients = __webpack_require__("0LBR");
@@ -41649,13 +42004,19 @@ function BorderColorEdit(props) {
     });
   };
 
-  return Object(external_wp_element_["createElement"])(control["a" /* default */], Object(esm_extends["a" /* default */])({
+  const settings = [{
     label: Object(external_wp_i18n_["__"])('Color'),
-    colorValue: colorValue,
     onColorChange: onChangeColor,
-    clearable: false,
+    colorValue,
+    clearable: false
+  }];
+  return Object(external_wp_element_["createElement"])(dropdown["a" /* default */], Object(esm_extends["a" /* default */])({
+    settings: settings,
+    disableCustomColors: true,
+    disableCustomGradients: true,
     __experimentalHasMultipleOrigins: true,
-    __experimentalIsRenderedInSidebar: true
+    __experimentalIsRenderedInSidebar: true,
+    enableAlpha: true
   }, colorGradientSettings));
 }
 /**
@@ -42194,7 +42555,6 @@ function ColorPanel(_ref) {
 
 
 const COLOR_SUPPORT_KEY = 'color';
-const EMPTY_OBJECT = {};
 
 const hasColorSupport = blockType => {
   const colorSupport = Object(external_wp_blocks_["getBlockSupport"])(blockType, COLOR_SUPPORT_KEY);
@@ -42364,7 +42724,7 @@ function immutableSet(object, path, value) {
 
 
 function ColorEdit(props) {
-  var _gradientsPerOrigin$t, _style$color6, _style$color7, _style$color8, _style$elements2, _style$elements2$link, _style$elements2$link2, _style$elements3, _style$elements3$link, _style$elements3$link2;
+  var _style$color6, _style$color7, _style$color8, _style$elements2, _style$elements2$link, _style$elements2$link2, _style$elements3, _style$elements3$link, _style$elements3$link2;
 
   const {
     name: blockName,
@@ -42377,15 +42737,17 @@ function ColorEdit(props) {
   const themePalette = Object(use_setting["a" /* default */])('color.palette.theme');
   const defaultPalette = Object(use_setting["a" /* default */])('color.palette.default');
   const allSolids = Object(external_wp_element_["useMemo"])(() => [...(userPalette || []), ...(themePalette || []), ...(defaultPalette || [])], [userPalette, themePalette, defaultPalette]);
-  const gradientsPerOrigin = Object(use_setting["a" /* default */])('color.gradients') || EMPTY_OBJECT;
+  const userGradientPalette = Object(use_setting["a" /* default */])('color.gradients.custom');
+  const themeGradientPalette = Object(use_setting["a" /* default */])('color.gradients.theme');
+  const defaultGradientPalette = Object(use_setting["a" /* default */])('color.gradients.default');
+  const allGradients = Object(external_wp_element_["useMemo"])(() => [...(userGradientPalette || []), ...(themeGradientPalette || []), ...(defaultGradientPalette || [])], [userGradientPalette, themeGradientPalette, defaultGradientPalette]);
   const areCustomSolidsEnabled = Object(use_setting["a" /* default */])('color.custom');
   const areCustomGradientsEnabled = Object(use_setting["a" /* default */])('color.customGradient');
   const isBackgroundEnabled = Object(use_setting["a" /* default */])('color.background');
   const isLinkEnabled = Object(use_setting["a" /* default */])('color.link');
   const isTextEnabled = Object(use_setting["a" /* default */])('color.text');
   const solidsEnabled = areCustomSolidsEnabled || !themePalette || (themePalette === null || themePalette === void 0 ? void 0 : themePalette.length) > 0;
-  const gradientsEnabled = areCustomGradientsEnabled || !(gradientsPerOrigin !== null && gradientsPerOrigin !== void 0 && gradientsPerOrigin.theme) || (gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : (_gradientsPerOrigin$t = gradientsPerOrigin.theme) === null || _gradientsPerOrigin$t === void 0 ? void 0 : _gradientsPerOrigin$t.length) > 0;
-  const allGradients = Object(external_wp_element_["useMemo"])(() => [...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.custom) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.theme) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.default) || [])], [gradientsPerOrigin]); // Shouldn't be needed but right now the ColorGradientsPanel
+  const gradientsEnabled = areCustomGradientsEnabled || !themeGradientPalette || (themeGradientPalette === null || themeGradientPalette === void 0 ? void 0 : themeGradientPalette.length) > 0; // Shouldn't be needed but right now the ColorGradientsPanel
   // can trigger both onChangeColor and onChangeBackground
   // synchronously causing our two callbacks to override changes
   // from each other.
@@ -42495,17 +42857,17 @@ function ColorEdit(props) {
     external_wp_element_["Platform"].OS === 'web' && !gradient && !(style !== null && style !== void 0 && (_style$color6 = style.color) !== null && _style$color6 !== void 0 && _style$color6.gradient),
     clientId: props.clientId,
     settings: [...(hasTextColor ? [{
-      label: Object(external_wp_i18n_["__"])('Text color'),
+      label: Object(external_wp_i18n_["__"])('Text'),
       onColorChange: onChangeColor('text'),
       colorValue: Object(utils["b" /* getColorObjectByAttributeValues */])(allSolids, textColor, style === null || style === void 0 ? void 0 : (_style$color7 = style.color) === null || _style$color7 === void 0 ? void 0 : _style$color7.text).color
     }] : []), ...(hasBackgroundColor || hasGradientColor ? [{
-      label: Object(external_wp_i18n_["__"])('Background color'),
+      label: Object(external_wp_i18n_["__"])('Background'),
       onColorChange: hasBackgroundColor ? onChangeColor('background') : undefined,
       colorValue: Object(utils["b" /* getColorObjectByAttributeValues */])(allSolids, backgroundColor, style === null || style === void 0 ? void 0 : (_style$color8 = style.color) === null || _style$color8 === void 0 ? void 0 : _style$color8.background).color,
       gradientValue,
       onGradientChange: hasGradientColor ? onChangeGradient : undefined
     }] : []), ...(hasLinkColor ? [{
-      label: Object(external_wp_i18n_["__"])('Link Color'),
+      label: Object(external_wp_i18n_["__"])('Link'),
       onColorChange: onChangeLinkColor,
       colorValue: getLinkColorFromAttributeValue(allSolids, style === null || style === void 0 ? void 0 : (_style$elements2 = style.elements) === null || _style$elements2 === void 0 ? void 0 : (_style$elements2$link = _style$elements2.link) === null || _style$elements2$link === void 0 ? void 0 : (_style$elements2$link2 = _style$elements2$link.color) === null || _style$elements2$link2 === void 0 ? void 0 : _style$elements2$link2.text),
       clearable: !!(style !== null && style !== void 0 && (_style$elements3 = style.elements) !== null && _style$elements3 !== void 0 && (_style$elements3$link = _style$elements3.link) !== null && _style$elements3$link !== void 0 && (_style$elements3$link2 = _style$elements3$link.color) !== null && _style$elements3$link2 !== void 0 && _style$elements3$link2.text)
@@ -44409,6 +44771,7 @@ function compileStyleValue(uncompiledValue) {
 
 function getInlineStyles() {
   let styles = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  const ignoredStyles = ['spacing.blockGap'];
   const output = {};
   Object.keys(external_wp_blocks_["__EXPERIMENTAL_STYLE_PROPERTY"]).forEach(propKey => {
     const path = external_wp_blocks_["__EXPERIMENTAL_STYLE_PROPERTY"][propKey].value;
@@ -44428,7 +44791,7 @@ function getInlineStyles() {
             output[name] = compileStyleValue(value);
           }
         });
-      } else {
+      } else if (!ignoredStyles.includes(path.join('.'))) {
         output[propKey] = compileStyleValue(Object(external_lodash_["get"])(styles, path));
       }
     }
@@ -45103,7 +45466,8 @@ const withLayoutStyles = Object(external_wp_compose_["createHigherOrderComponent
   });
   return Object(external_wp_element_["createElement"])(external_wp_element_["Fragment"], null, shouldRenderLayoutStyles && element && Object(external_wp_element_["createPortal"])(Object(external_wp_element_["createElement"])(block_list_layout["b" /* LayoutStyle */], {
     selector: `.wp-container-${id}`,
-    layout: usedLayout
+    layout: usedLayout,
+    style: attributes === null || attributes === void 0 ? void 0 : attributes.style
   }), element), Object(external_wp_element_["createElement"])(BlockListBlock, Object(esm_extends["a" /* default */])({}, props, {
     className: className
   })));
@@ -45251,7 +45615,7 @@ function getColorClassesAndStyles(attributes) {
     style: styleProp
   };
 }
-const use_color_props_EMPTY_OBJECT = {};
+const EMPTY_OBJECT = {};
 /**
  * Determines the color related props for a block derived from its color block
  * support attributes.
@@ -45276,7 +45640,7 @@ function useColorProps(attributes) {
   const userPalette = Object(use_setting["a" /* default */])('color.palette.custom') || [];
   const themePalette = Object(use_setting["a" /* default */])('color.palette.theme') || [];
   const defaultPalette = Object(use_setting["a" /* default */])('color.palette.default') || [];
-  const gradientsPerOrigin = Object(use_setting["a" /* default */])('color.gradients') || use_color_props_EMPTY_OBJECT;
+  const gradientsPerOrigin = Object(use_setting["a" /* default */])('color.gradients') || EMPTY_OBJECT;
   const colors = Object(external_wp_element_["useMemo"])(() => [...(userPalette || []), ...(themePalette || []), ...(defaultPalette || [])], [userPalette, themePalette, defaultPalette]);
   const gradients = Object(external_wp_element_["useMemo"])(() => [...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.custom) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.theme) || []), ...((gradientsPerOrigin === null || gradientsPerOrigin === void 0 ? void 0 : gradientsPerOrigin.default) || [])], [gradientsPerOrigin]);
   const colorProps = getColorClassesAndStyles(attributes); // Force inline styles to apply colors when themes do not load their color
@@ -45374,7 +45738,7 @@ function useCachedTruthy(value) {
 
 
 
-// EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/index.js + 119 modules
+// EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/components/index.js + 118 modules
 var components = __webpack_require__("14PQ");
 
 // EXTERNAL MODULE: ./node_modules/@wordpress/block-editor/build-module/utils/index.js + 2 modules
@@ -49619,7 +49983,7 @@ function InserterListboxGroup(props, ref) {
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("l3Sj");
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _control__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("hMaJ");
+/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("dchM");
 /* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("bVpQ");
 /* harmony import */ var _gradients__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("Cn0l");
 /* harmony import */ var _use_setting__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("v5LD");
@@ -49726,9 +50090,8 @@ const PanelColorGradientSettingsInner = _ref3 => {
   return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__["PanelBody"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('block-editor-panel-color-gradient-settings', className),
     title: showTitle ? titleElement : undefined
-  }, props), settings.map((setting, index) => Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_control__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    showTitle: showTitle,
-    key: index,
+  }, props), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_dropdown__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
+    settings: settings,
     colors,
     gradients,
     disableCustomColors,
@@ -49736,7 +50099,9 @@ const PanelColorGradientSettingsInner = _ref3 => {
     __experimentalHasMultipleOrigins,
     __experimentalIsRenderedInSidebar,
     enableAlpha
-  }, setting))), children);
+  }), !!children && Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__["__experimentalSpacer"], {
+    marginY: 4
+  }), " ", children));
 };
 
 const PanelColorGradientSettingsSingleSelect = props => {

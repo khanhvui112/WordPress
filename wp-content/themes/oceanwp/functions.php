@@ -604,6 +604,7 @@ final class OCEANWP_Theme_Class {
 		wp_script_add_data( 'html5shiv', 'conditional', 'lt IE 9' );
 	}
 
+	
 	/**
 	 * Registers sidebars
 	 *
@@ -900,6 +901,8 @@ final class OCEANWP_Theme_Class {
 		$links = str_replace( ')', ')</span>', $links );
 		return $links;
 	}
+	
+	
 
 	/**
 	 * Alters the default oembed output.
@@ -1031,8 +1034,11 @@ final class OCEANWP_Theme_Class {
 	public static function remove_bb_lightbox() {
 		return true;
 	}
+	
+	
 
 }
+
 
 /**--------------------------------------------------------------------------------
 #region Freemius - This logic will only be executed when Ocean Extra is active and has the Freemius SDK
@@ -1088,6 +1094,7 @@ if ( ! function_exists( 'owp_fs' ) ) {
 }
 
 // endregion
+
 
 new OCEANWP_Theme_Class();
 function my_scripts() {
