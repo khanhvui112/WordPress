@@ -1,0 +1,26 @@
+@media(min-width:768px){.elementor-5093 .elementor-element.elementor-element-9322e39{width:67.569%;}.elementor-5093 .elementor-element.elementor-element-b28e0ca{width:31.763%;}}/* Start custom CSS for html, class: .elementor-element-77aba17 */#content {
+    min-height: 450px;
+    margin: 0;
+    padding: 0;
+}
+#outline {
+    width: auto;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.c {
+    text-align: center;
+}
+
+#detail {
+    font-family: Arial,Helvetica;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.pad3 {
+    padding: 3px;
+}/* End custom CSS */

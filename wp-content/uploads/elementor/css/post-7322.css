@@ -1,0 +1,20 @@
+.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_box{flex-direction:row;padding:0px 0px 0px 0px;border-radius:0px;background-color:#efefef;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list{grid-template-columns:repeat(1, 1fr);gap:1px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_content{padding:15px 15px 15px 15px;justify-content:center;text-align:left;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_image{width:100px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_image  img{height:100px;border-radius:0px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_image img{object-position:center center;object-fit:cover;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .ue-grid-item-category a{background-color:#00bcff;color:#ffffff;padding:2px 10px 2px 10px;border-radius:5px 5px 5px 5px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_title a{color:#000000;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_title{margin-top:0px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .ue-grid-item-meta-data{color:#707070;margin-top:10px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .ue-grid-item-meta-data svg{fill:#707070;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .ue-meta-data{gap:10px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_content{color:#969696;margin-top:10px;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_more_btn{padding:10px 20px 10px 20px;display:inline-block;border-radius:0px;background-color:#000000;color:#ffffff;}.elementor-7322 .elementor-element.elementor-element-5342ec6 .ue-no-posts-found{color:#000000;background-color:#e8e8e8;padding:20px 20px 20px 20px;border-style:solid;border-width:1px 1px 1px 1px;border-color:#c4c4c4;}.elementor-7322 .elementor-element.elementor-element-5342ec6 > .elementor-widget-container{margin:6px 6px 6px 6px;background-color:#F4EBEB;}.elementor-7322 .elementor-element.elementor-element-b517a2d .archive_pagination{border-radius:0px;}.elementor-7322 .elementor-element.elementor-element-b517a2d .page-numbers{min-width:30px;height:30px;border-radius:17px;}@media(max-width:767px){.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_box{flex-direction:column;}}@media(min-width:768px){.elementor-7322 .elementor-element.elementor-element-8916197{width:69.357%;}.elementor-7322 .elementor-element.elementor-element-8e9efcd{width:29.934%;}}/* Start custom CSS for ucaddon_post_list, class: .elementor-element-5342ec6 */.hoat-dong-dao-tao{
+    border-radius: 9px;
+    border: 1px solid #cdc0c0;
+}
+.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_box {
+    
+    background-color: #fcfcfc;
+}
+
+.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_content {
+    padding: 0 5px;
+}
+
+.elementor-7322 .elementor-element.elementor-element-5342ec6 .uc_post_list_box {
+    padding: 11px 0px;
+}
+
+#uc_post_list_elementor15299 {
+    gap: 5px;
+}/* End custom CSS */

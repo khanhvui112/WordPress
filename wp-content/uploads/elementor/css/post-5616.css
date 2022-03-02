@@ -1,0 +1,20 @@
+.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_box{flex-direction:row;padding:0px 0px 0px 0px;border-radius:0px;background-color:#efefef;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list{grid-template-columns:repeat(1, 1fr);gap:1px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_content{padding:15px 15px 15px 15px;justify-content:center;text-align:left;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_image{width:100px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_image  img{height:100px;border-radius:0px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_image img{object-position:center center;object-fit:cover;}.elementor-5616 .elementor-element.elementor-element-2330910 .ue-grid-item-category a{background-color:#00bcff;color:#ffffff;padding:2px 10px 2px 10px;border-radius:5px 5px 5px 5px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_title a{color:#000000;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_title{margin-top:0px;}.elementor-5616 .elementor-element.elementor-element-2330910 .ue-grid-item-meta-data{color:#707070;margin-top:10px;}.elementor-5616 .elementor-element.elementor-element-2330910 .ue-grid-item-meta-data svg{fill:#707070;}.elementor-5616 .elementor-element.elementor-element-2330910 .ue-meta-data{gap:10px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_content{color:#969696;margin-top:10px;}.elementor-5616 .elementor-element.elementor-element-2330910 .uc_more_btn{padding:10px 20px 10px 20px;display:inline-block;border-radius:0px;background-color:#000000;color:#ffffff;}.elementor-5616 .elementor-element.elementor-element-2330910 .ue-no-posts-found{color:#000000;background-color:#e8e8e8;padding:20px 20px 20px 20px;border-style:solid;border-width:1px 1px 1px 1px;border-color:#c4c4c4;}.elementor-5616 .elementor-element.elementor-element-2330910 > .elementor-widget-container{margin:9px 9px 9px 9px;background-color:#FBF8F8;border-style:solid;border-width:0px 0px 0px 0px;}.elementor-5616 .elementor-element.elementor-element-e1b37a5 .archive_pagination{font-family:"Roboto", Sans-serif;font-size:13px;font-weight:400;border-radius:0px;}.elementor-5616 .elementor-element.elementor-element-e1b37a5 .page-numbers{min-width:25px;height:25px;border-radius:22px;}.elementor-5616 .elementor-element.elementor-element-e1b37a5 a.page-numbers{border-style:solid;border-width:1px 1px 1px 1px;}.elementor-5616 .elementor-element.elementor-element-e1b37a5 .page-numbers.current{border-style:solid;border-width:0px 0px 0px 0px;}.elementor-5616 .elementor-element.elementor-element-e1b37a5 > .elementor-widget-container{background-color:#F8F8F8;}@media(max-width:767px){.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_box{flex-direction:column;}}@media(min-width:768px){.elementor-5616 .elementor-element.elementor-element-eedb9c2{width:67.569%;}.elementor-5616 .elementor-element.elementor-element-e057464{width:31.763%;}}/* Start custom CSS for ucaddon_post_list, class: .elementor-element-2330910 */.post-tuyen-sinh-new {
+    border: 1px solid #d1cccc;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+
+.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_box {
+    background-color: #fcfcfc!important;
+}
+
+.elementor-5616 .elementor-element.elementor-element-2330910 .uc_post_list_conten {
+    padding: 0px 15px 15px 15px;
+    justify-content: center;
+    text-align: left;
+}
+
+#uc_post_list_elementor19315 {
+    gap: 12px;
+}/* End custom CSS */
