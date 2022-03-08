@@ -6,7 +6,7 @@
     font: 12px Arial,Helvetica;
     width: 100%;
     line-height: 18px;
-    color: #333;
+    color: #d9e3f3;
     position: relative;
     border-top: 1px solid #eee;
 }
@@ -14,6 +14,10 @@
     font-family: Arial,Helvetica,Verdana,Tahoma;
     font-size: 12px;
 }
+#footer> span > a {
+    color: #d6d0eb;
+}
+
 #powered {
     position: absolute;
     top: 10px;
